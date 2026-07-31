@@ -1,0 +1,1001 @@
+CustomerID,Gender,Age,Tenure_Months,Contract_Type,Payment_Method,Monthly_Charges_INR,Total_Charges_INR,Tech_Support,Paperless_Billing,Churn
+CUST-1000,Male,34,11,Month-to-month,Mailed Check,574.49,6287.67,Yes,Yes,0
+CUST-1001,Female,26,56,One year,Bank Transfer,740.22,41434.22,No,No,0
+CUST-1002,Male,50,67,Two year,Credit Card,774.7,51896.45,Yes,No,0
+CUST-1003,Male,37,29,Month-to-month,Mailed Check,1819.67,52811.23,Yes,No,1
+CUST-1004,Male,30,9,Month-to-month,Bank Transfer,1625.69,14605.47,No,Yes,1
+CUST-1005,Female,45,67,Two year,Bank Transfer,1660.78,111231.39,No,Yes,0
+CUST-1006,Male,65,25,Month-to-month,Credit Card,2368.7,59199.37,No,Yes,0
+CUST-1007,Male,46,42,Month-to-month,Mailed Check,2006.01,84212.89,No,Yes,1
+CUST-1008,Male,30,9,Two year,Bank Transfer,580.46,5187.0,Yes,No,0
+CUST-1009,Female,63,40,Month-to-month,Bank Transfer,1063.52,42548.19,No,Yes,0
+CUST-1010,Male,52,25,One year,Bank Transfer,1256.87,31377.84,Yes,Yes,0
+CUST-1011,Male,23,5,One year,Credit Card,1170.12,5803.69,Yes,Yes,0
+CUST-1012,Male,35,11,Month-to-month,Mailed Check,1771.48,19507.72,No,Yes,1
+CUST-1013,Male,68,59,Month-to-month,Mailed Check,2261.16,133394.6,Yes,No,1
+CUST-1014,Female,22,38,One year,Mailed Check,972.31,36910.32,No,Yes,0
+CUST-1015,Male,64,5,Month-to-month,Mailed Check,1513.13,7541.01,Yes,Yes,1
+CUST-1016,Female,42,48,Month-to-month,UPI / Electronic,2035.7,97727.81,No,Yes,1
+CUST-1017,Female,19,18,One year,UPI / Electronic,1214.68,21841.79,No,Yes,0
+CUST-1018,Female,27,70,Month-to-month,Mailed Check,668.86,46819.65,No,Yes,0
+CUST-1019,Male,47,37,Month-to-month,Credit Card,1343.89,49686.1,No,No,1
+CUST-1020,Female,67,60,Two year,UPI / Electronic,420.49,25238.21,Yes,Yes,0
+CUST-1021,Male,62,48,Month-to-month,Bank Transfer,2372.24,113849.13,No,No,1
+CUST-1022,Female,22,28,Two year,UPI / Electronic,463.61,12993.78,No,No,0
+CUST-1023,Female,50,69,One year,Bank Transfer,1263.6,87219.24,Yes,No,0
+CUST-1024,Female,18,40,One year,Mailed Check,1464.74,58600.76,No,No,1
+CUST-1025,Female,35,45,Month-to-month,UPI / Electronic,2466.67,110979.72,No,Yes,1
+CUST-1026,Female,49,62,Two year,Credit Card,664.25,41159.07,Yes,Yes,0
+CUST-1027,Female,64,58,Month-to-month,UPI / Electronic,550.75,31926.24,No,Yes,1
+CUST-1028,Female,66,67,One year,UPI / Electronic,318.15,21282.51,Yes,No,0
+CUST-1029,Female,28,56,Month-to-month,UPI / Electronic,641.26,35878.68,No,No,1
+CUST-1030,Male,38,40,Month-to-month,Mailed Check,755.0,30229.07,Yes,No,0
+CUST-1031,Male,43,40,Month-to-month,Credit Card,1686.28,67439.67,No,Yes,1
+CUST-1032,Female,42,33,Two year,UPI / Electronic,782.35,25811.15,No,No,0
+CUST-1033,Female,39,6,Two year,Credit Card,344.15,2074.3,No,Yes,0
+CUST-1034,Female,44,19,Month-to-month,Mailed Check,2117.56,40242.61,No,Yes,1
+CUST-1035,Male,66,40,Month-to-month,Bank Transfer,1103.31,44089.14,No,Yes,0
+CUST-1036,Female,30,59,One year,UPI / Electronic,1077.13,63583.82,No,Yes,0
+CUST-1037,Male,50,59,Month-to-month,Credit Card,964.45,56870.28,Yes,Yes,0
+CUST-1038,Male,51,48,Month-to-month,Credit Card,2444.82,117373.67,No,Yes,1
+CUST-1039,Male,58,41,One year,Mailed Check,673.25,27630.52,No,Yes,0
+CUST-1040,Male,52,13,Month-to-month,UPI / Electronic,2275.12,29598.05,No,No,0
+CUST-1041,Male,18,45,Two year,Bank Transfer,2007.97,90366.55,No,No,0
+CUST-1042,Female,38,53,Month-to-month,Credit Card,467.26,24716.24,No,No,1
+CUST-1043,Female,65,42,Month-to-month,UPI / Electronic,2469.8,103717.64,No,Yes,1
+CUST-1044,Female,23,63,Month-to-month,Bank Transfer,896.01,56459.11,No,No,1
+CUST-1045,Female,45,27,One year,Credit Card,515.88,13917.51,Yes,No,0
+CUST-1046,Female,34,38,Month-to-month,Credit Card,2123.49,80728.97,No,Yes,1
+CUST-1047,Male,22,60,One year,Bank Transfer,1853.69,111202.28,No,Yes,0
+CUST-1048,Female,48,7,Month-to-month,Bank Transfer,1656.88,11577.51,No,Yes,1
+CUST-1049,Female,22,5,Two year,Mailed Check,642.16,3187.4,No,Yes,0
+CUST-1050,Male,55,45,Month-to-month,UPI / Electronic,1351.69,60809.33,Yes,No,0
+CUST-1051,Female,20,58,Month-to-month,UPI / Electronic,2016.22,116946.5,No,No,1
+CUST-1052,Male,40,31,One year,Mailed Check,966.97,29996.77,No,Yes,1
+CUST-1053,Female,54,23,Month-to-month,Credit Card,984.72,22664.82,Yes,No,1
+CUST-1054,Male,54,42,Month-to-month,Bank Transfer,305.91,12878.99,No,No,1
+CUST-1055,Female,27,10,Two year,Bank Transfer,682.34,6861.99,Yes,No,1
+CUST-1056,Female,27,32,Month-to-month,Bank Transfer,2224.89,71228.09,Yes,Yes,1
+CUST-1057,Male,36,53,One year,Credit Card,1270.84,67306.41,Yes,No,0
+CUST-1058,Male,34,30,Month-to-month,Bank Transfer,2464.32,73953.19,No,Yes,1
+CUST-1059,Male,38,39,One year,Bank Transfer,1169.56,45583.68,No,Yes,1
+CUST-1060,Male,31,31,Month-to-month,Mailed Check,1872.41,58008.0,No,Yes,1
+CUST-1061,Male,26,2,Month-to-month,Credit Card,919.22,1852.29,No,Yes,0
+CUST-1062,Male,63,12,Two year,UPI / Electronic,1099.38,13174.53,No,No,0
+CUST-1063,Male,18,39,One year,Mailed Check,718.6,27981.11,Yes,Yes,0
+CUST-1064,Male,68,66,Month-to-month,Mailed Check,1062.54,70091.4,Yes,Yes,0
+CUST-1065,Female,62,13,Month-to-month,UPI / Electronic,1502.92,19488.05,No,Yes,1
+CUST-1066,Female,30,46,Two year,Mailed Check,2480.9,114161.72,Yes,No,0
+CUST-1067,Male,21,27,Month-to-month,Credit Card,1760.24,47478.94,No,Yes,1
+CUST-1068,Female,18,17,One year,Bank Transfer,737.34,12505.73,No,No,0
+CUST-1069,Female,66,60,One year,Credit Card,397.92,23866.83,No,Yes,0
+CUST-1070,Female,57,64,Month-to-month,UPI / Electronic,576.98,36912.38,No,Yes,1
+CUST-1071,Female,49,35,Month-to-month,UPI / Electronic,1536.62,53822.87,Yes,Yes,1
+CUST-1072,Male,51,70,One year,Mailed Check,1982.35,138718.53,Yes,Yes,0
+CUST-1073,Female,45,30,Month-to-month,Credit Card,2367.92,71038.82,No,Yes,1
+CUST-1074,Male,48,71,Month-to-month,Credit Card,333.81,23718.56,No,Yes,0
+CUST-1075,Female,25,63,Two year,UPI / Electronic,1449.07,91334.58,No,No,0
+CUST-1076,Female,56,28,One year,Credit Card,1334.91,37389.52,Yes,No,0
+CUST-1077,Female,43,60,One year,UPI / Electronic,1742.32,104569.58,No,Yes,0
+CUST-1078,Male,51,37,One year,Credit Card,1530.07,56570.96,No,Yes,0
+CUST-1079,Female,20,22,One year,Credit Card,1810.49,39819.37,No,No,1
+CUST-1080,Male,67,68,Month-to-month,Credit Card,1746.78,118768.43,Yes,Yes,1
+CUST-1081,Female,29,20,Month-to-month,UPI / Electronic,556.43,11167.23,No,Yes,0
+CUST-1082,Male,18,68,Month-to-month,Mailed Check,2058.38,139934.98,No,No,1
+CUST-1083,Female,61,64,Month-to-month,Credit Card,570.11,36452.23,Yes,No,0
+CUST-1084,Male,22,17,One year,UPI / Electronic,1835.77,31190.95,No,Yes,0
+CUST-1085,Male,47,12,Month-to-month,UPI / Electronic,1214.52,14529.69,No,Yes,1
+CUST-1086,Female,47,22,Month-to-month,Credit Card,1429.47,31416.59,No,Yes,1
+CUST-1087,Male,34,17,Month-to-month,Credit Card,2286.26,38912.94,No,No,1
+CUST-1088,Female,65,10,Month-to-month,Mailed Check,2256.74,22560.22,Yes,Yes,1
+CUST-1089,Female,64,65,Month-to-month,UPI / Electronic,2098.28,136401.4,No,Yes,0
+CUST-1090,Female,40,22,Month-to-month,UPI / Electronic,1421.33,31291.87,No,Yes,0
+CUST-1091,Female,32,50,Month-to-month,Bank Transfer,1918.73,95923.2,No,Yes,1
+CUST-1092,Female,54,14,Month-to-month,UPI / Electronic,1427.37,19947.9,No,No,0
+CUST-1093,Female,38,64,Month-to-month,Mailed Check,2212.13,141546.98,No,No,1
+CUST-1094,Female,31,47,One year,Bank Transfer,1185.11,55681.5,Yes,No,1
+CUST-1095,Female,19,29,Month-to-month,Bank Transfer,2433.52,70585.69,No,Yes,1
+CUST-1096,Female,28,36,Month-to-month,Bank Transfer,2350.11,84593.79,No,Yes,1
+CUST-1097,Female,68,52,One year,Credit Card,1930.53,100338.24,Yes,Yes,0
+CUST-1098,Female,56,7,Month-to-month,Credit Card,913.71,6398.31,No,Yes,0
+CUST-1099,Male,55,29,Two year,UPI / Electronic,588.64,17112.71,No,No,0
+CUST-1100,Male,51,11,Month-to-month,Bank Transfer,2179.35,24004.06,No,Yes,1
+CUST-1101,Female,55,33,Month-to-month,Mailed Check,662.67,21900.63,Yes,Yes,0
+CUST-1102,Female,67,6,One year,Credit Card,2178.37,13099.73,No,Yes,1
+CUST-1103,Female,51,32,Month-to-month,Mailed Check,1378.68,44100.13,Yes,No,1
+CUST-1104,Female,35,51,One year,Mailed Check,1193.42,60890.94,No,Yes,0
+CUST-1105,Female,47,58,Month-to-month,Credit Card,2286.02,132553.48,No,Yes,1
+CUST-1106,Female,32,26,Two year,Credit Card,1627.47,42329.99,No,Yes,0
+CUST-1107,Female,44,46,Month-to-month,Credit Card,1567.55,72121.46,No,No,1
+CUST-1108,Female,68,29,Month-to-month,Credit Card,1528.29,44272.97,No,Yes,1
+CUST-1109,Male,51,4,One year,Bank Transfer,1115.57,4491.08,No,No,0
+CUST-1110,Female,69,13,Month-to-month,Bank Transfer,2027.41,26396.65,No,No,1
+CUST-1111,Male,55,39,Month-to-month,Bank Transfer,855.16,33327.98,No,Yes,0
+CUST-1112,Female,50,15,One year,Bank Transfer,2364.57,35499.79,No,No,0
+CUST-1113,Female,41,29,Two year,UPI / Electronic,2265.77,65665.57,No,Yes,0
+CUST-1114,Male,32,29,Month-to-month,Bank Transfer,1041.46,30212.34,No,No,0
+CUST-1115,Female,47,32,One year,Credit Card,1903.82,60920.8,No,Yes,0
+CUST-1116,Male,59,2,Two year,Mailed Check,1560.09,3124.77,No,Yes,0
+CUST-1117,Female,68,47,Two year,Bank Transfer,1041.83,,Yes,Yes,0
+CUST-1118,Female,34,22,Month-to-month,UPI / Electronic,2473.75,54459.63,Yes,Yes,1
+CUST-1119,Male,22,27,One year,Credit Card,354.52,9600.55,No,No,0
+CUST-1120,Female,46,67,Month-to-month,Mailed Check,854.82,57250.31,No,Yes,1
+CUST-1121,Male,21,56,Two year,Mailed Check,1443.16,80858.14,No,No,0
+CUST-1122,Female,27,21,Month-to-month,Bank Transfer,1447.3,30353.05,No,Yes,1
+CUST-1123,Male,34,47,Month-to-month,Mailed Check,1594.65,74983.88,Yes,No,1
+CUST-1124,Male,27,59,One year,Bank Transfer,1952.69,115191.53,No,Yes,0
+CUST-1125,Female,34,6,Month-to-month,Bank Transfer,1670.65,9979.28,No,Yes,1
+CUST-1126,Female,37,19,Two year,Credit Card,1619.62,30789.72,No,Yes,0
+CUST-1127,Male,41,57,Two year,Credit Card,416.73,23726.74,No,No,0
+CUST-1128,Female,22,69,One year,UPI / Electronic,1127.37,77762.89,Yes,Yes,0
+CUST-1129,Female,51,3,Month-to-month,Credit Card,809.52,2409.16,Yes,Yes,0
+CUST-1130,Female,23,1,One year,Credit Card,882.81,839.18,No,Yes,0
+CUST-1131,Male,19,58,Month-to-month,Bank Transfer,1518.54,88043.03,No,No,0
+CUST-1132,Male,30,38,Month-to-month,Credit Card,737.91,27991.09,No,Yes,1
+CUST-1133,Male,60,15,Two year,Bank Transfer,945.69,14179.89,Yes,Yes,0
+CUST-1134,Male,60,34,Month-to-month,Bank Transfer,820.59,27858.49,Yes,Yes,1
+CUST-1135,Male,65,61,Month-to-month,Credit Card,2385.71,145546.58,No,No,1
+CUST-1136,Male,28,35,Two year,UPI / Electronic,2377.26,83177.66,No,No,0
+CUST-1137,Male,68,64,Month-to-month,UPI / Electronic,1640.87,105060.04,No,Yes,1
+CUST-1138,Male,64,25,Month-to-month,Mailed Check,2332.95,58360.88,Yes,Yes,0
+CUST-1139,Male,40,24,Two year,Mailed Check,2027.79,48645.9,No,Yes,0
+CUST-1140,Female,33,12,Month-to-month,Credit Card,1596.89,19191.0,Yes,Yes,0
+CUST-1141,Male,48,18,One year,UPI / Electronic,313.16,5667.2,Yes,Yes,0
+CUST-1142,Female,28,15,Two year,Bank Transfer,1998.54,30026.76,No,No,0
+CUST-1143,Female,33,27,Two year,Mailed Check,1844.47,49810.47,Yes,Yes,0
+CUST-1144,Female,25,60,One year,Bank Transfer,1652.56,99111.8,Yes,No,1
+CUST-1145,Male,21,46,Month-to-month,Mailed Check,1971.93,90723.46,No,Yes,1
+CUST-1146,Male,57,17,Month-to-month,Credit Card,1427.43,24278.81,No,No,0
+CUST-1147,Male,21,53,Two year,UPI / Electronic,1847.98,97956.78,No,Yes,0
+CUST-1148,Male,42,8,Two year,Mailed Check,2356.38,18831.75,No,Yes,1
+CUST-1149,Female,20,27,Month-to-month,UPI / Electronic,1125.77,30431.76,Yes,Yes,1
+CUST-1150,Male,49,46,Month-to-month,Bank Transfer,1856.87,85461.97,Yes,Yes,0
+CUST-1151,Male,20,50,Month-to-month,Credit Card,1345.51,67247.27,No,Yes,0
+CUST-1152,Male,44,71,Month-to-month,UPI / Electronic,1782.68,126529.1,No,No,1
+CUST-1153,Male,46,3,One year,Credit Card,1977.37,5901.56,No,No,0
+CUST-1154,Male,49,64,Month-to-month,UPI / Electronic,399.0,25568.06,Yes,Yes,1
+CUST-1155,Female,67,44,Two year,Bank Transfer,1721.52,75764.54,No,Yes,0
+CUST-1156,Male,68,53,One year,Bank Transfer,797.83,42298.59,Yes,Yes,0
+CUST-1157,Female,36,24,Month-to-month,Credit Card,1773.07,42543.86,No,Yes,1
+CUST-1158,Male,38,60,One year,Bank Transfer,1329.33,79767.58,No,Yes,0
+CUST-1159,Female,22,3,Month-to-month,Mailed Check,2000.82,5983.25,No,No,1
+CUST-1160,Male,35,20,One year,UPI / Electronic,570.48,11407.32,No,No,0
+CUST-1161,Male,45,46,One year,Bank Transfer,1676.91,77167.17,No,No,0
+CUST-1162,Female,59,15,Two year,Mailed Check,911.64,13722.72,No,Yes,0
+CUST-1163,Female,39,25,Two year,Credit Card,2175.56,54432.25,No,No,0
+CUST-1164,Female,38,71,Month-to-month,Mailed Check,2341.44,166285.63,Yes,No,0
+CUST-1165,Male,23,17,Month-to-month,Credit Card,2491.08,42338.58,No,Yes,1
+CUST-1166,Female,18,9,One year,Credit Card,2050.22,18448.86,Yes,Yes,0
+CUST-1167,Male,22,38,Month-to-month,UPI / Electronic,1957.21,74394.54,No,No,1
+CUST-1168,Male,58,48,Month-to-month,UPI / Electronic,773.1,37151.02,No,Yes,1
+CUST-1169,Female,29,60,Month-to-month,Mailed Check,1038.22,62257.4,No,Yes,1
+CUST-1170,Female,43,63,One year,UPI / Electronic,1323.5,83360.92,No,Yes,0
+CUST-1171,Male,63,2,Month-to-month,UPI / Electronic,2000.44,3964.8,Yes,Yes,1
+CUST-1172,Male,51,11,One year,UPI / Electronic,2311.92,25442.32,No,Yes,0
+CUST-1173,Female,66,64,Two year,Mailed Check,715.11,45747.67,No,No,0
+CUST-1174,Female,31,21,Month-to-month,Bank Transfer,2328.21,48875.02,No,No,1
+CUST-1175,Female,43,18,Month-to-month,UPI / Electronic,1829.37,32885.75,Yes,No,1
+CUST-1176,Male,62,64,Month-to-month,UPI / Electronic,1642.7,105117.78,No,Yes,1
+CUST-1177,Male,44,38,Two year,Mailed Check,738.65,28104.95,No,No,0
+CUST-1178,Male,26,32,Month-to-month,Bank Transfer,421.16,13450.43,Yes,Yes,0
+CUST-1179,Male,43,11,Month-to-month,UPI / Electronic,1549.62,17065.34,Yes,Yes,1
+CUST-1180,Male,64,45,Month-to-month,Credit Card,1732.33,77967.81,No,Yes,1
+CUST-1181,Male,39,33,One year,Mailed Check,762.72,25206.11,No,Yes,0
+CUST-1182,Female,64,41,Month-to-month,UPI / Electronic,1523.2,62414.43,No,Yes,1
+CUST-1183,Male,47,8,One year,UPI / Electronic,2183.29,17514.08,No,Yes,1
+CUST-1184,Male,60,11,Two year,Credit Card,2136.15,23505.91,No,Yes,0
+CUST-1185,Male,65,51,Month-to-month,Credit Card,2339.18,119347.73,No,Yes,1
+CUST-1186,Female,34,41,Two year,Mailed Check,1103.95,45303.1,Yes,No,0
+CUST-1187,Male,43,17,Month-to-month,Mailed Check,998.71,16950.22,Yes,Yes,1
+CUST-1188,Male,53,46,Two year,Credit Card,1947.74,89551.66,No,No,0
+CUST-1189,Female,18,32,One year,Mailed Check,1247.45,39893.96,No,Yes,0
+CUST-1190,Male,25,54,Two year,Credit Card,491.61,26549.7,No,Yes,1
+CUST-1191,Male,66,20,Month-to-month,UPI / Electronic,921.16,18390.36,No,No,0
+CUST-1192,Male,52,33,Month-to-month,Credit Card,1219.88,40222.79,Yes,Yes,0
+CUST-1193,Male,69,40,Month-to-month,Credit Card,942.54,37697.86,No,Yes,0
+CUST-1194,Male,32,32,Month-to-month,Bank Transfer,1029.85,32908.53,Yes,No,0
+CUST-1195,Female,64,2,Month-to-month,Credit Card,945.31,1852.81,No,Yes,1
+CUST-1196,Female,39,33,Month-to-month,Credit Card,390.3,12871.49,No,No,1
+CUST-1197,Female,31,30,Month-to-month,Bank Transfer,1700.61,50974.61,No,Yes,0
+CUST-1198,Male,43,33,Month-to-month,Mailed Check,1613.04,53220.0,No,Yes,0
+CUST-1199,Male,45,26,Two year,Bank Transfer,1736.44,45144.84,Yes,Yes,0
+CUST-1200,Male,40,22,Month-to-month,UPI / Electronic,722.08,,No,Yes,1
+CUST-1201,Female,31,66,Month-to-month,Bank Transfer,949.44,62699.96,Yes,No,0
+CUST-1202,Male,41,38,Month-to-month,UPI / Electronic,1662.16,63165.09,No,No,0
+CUST-1203,Male,19,46,Month-to-month,Mailed Check,1618.18,74433.08,No,Yes,0
+CUST-1204,Female,62,15,Two year,Bank Transfer,1412.93,21185.02,No,Yes,0
+CUST-1205,Male,43,44,Month-to-month,Bank Transfer,1069.91,47107.8,No,No,1
+CUST-1206,Female,31,49,One year,Mailed Check,2307.45,113104.56,Yes,Yes,0
+CUST-1207,Female,68,61,Two year,UPI / Electronic,1046.49,63871.21,No,Yes,0
+CUST-1208,Female,24,67,Two year,Bank Transfer,1301.36,87208.47,Yes,Yes,0
+CUST-1209,Male,20,6,One year,UPI / Electronic,1790.85,10708.84,No,Yes,1
+CUST-1210,Male,64,9,Two year,Bank Transfer,1493.65,13420.54,Yes,No,0
+CUST-1211,Male,40,6,Two year,Credit Card,1062.15,6327.51,Yes,No,0
+CUST-1212,Male,63,32,One year,Bank Transfer,1257.42,40280.52,No,Yes,0
+CUST-1213,Male,60,41,One year,Mailed Check,2046.86,83937.34,No,Yes,0
+CUST-1214,Male,64,8,One year,Mailed Check,910.88,7311.68,Yes,Yes,0
+CUST-1215,Male,62,50,Month-to-month,UPI / Electronic,611.96,30579.16,No,Yes,1
+CUST-1216,Female,35,62,One year,Bank Transfer,987.96,61288.09,No,Yes,0
+CUST-1217,Male,55,62,Month-to-month,UPI / Electronic,2167.98,134390.72,No,No,1
+CUST-1218,Female,52,7,Month-to-month,UPI / Electronic,494.78,3413.62,Yes,Yes,1
+CUST-1219,Male,68,4,Month-to-month,Credit Card,2480.73,9910.56,No,Yes,1
+CUST-1220,Male,32,6,Month-to-month,Credit Card,1489.21,8942.34,No,Yes,0
+CUST-1221,Male,42,58,Month-to-month,Mailed Check,2465.66,143006.15,No,Yes,1
+CUST-1222,Female,54,22,Month-to-month,UPI / Electronic,2364.79,52061.59,No,Yes,0
+CUST-1223,Female,45,26,One year,Mailed Check,1295.19,33635.48,No,No,0
+CUST-1224,Female,27,3,Month-to-month,Bank Transfer,735.68,2212.42,No,Yes,1
+CUST-1225,Female,56,41,Two year,UPI / Electronic,661.75,27133.05,No,No,0
+CUST-1226,Male,34,60,Month-to-month,UPI / Electronic,826.98,49596.94,Yes,Yes,0
+CUST-1227,Female,56,14,Month-to-month,Bank Transfer,1861.29,,Yes,Yes,1
+CUST-1228,Male,39,12,One year,Bank Transfer,899.49,10819.16,No,Yes,0
+CUST-1229,Male,43,12,One year,Mailed Check,1050.14,12624.97,Yes,Yes,0
+CUST-1230,Female,61,13,Month-to-month,Mailed Check,1286.31,16759.65,No,Yes,0
+CUST-1231,Female,42,25,Two year,Bank Transfer,2308.11,57725.03,No,Yes,1
+CUST-1232,Female,34,45,Two year,Mailed Check,715.67,32178.33,Yes,No,0
+CUST-1233,Female,30,19,Month-to-month,Bank Transfer,310.06,5911.7,No,No,0
+CUST-1234,Female,37,55,Month-to-month,UPI / Electronic,431.21,23697.32,No,Yes,0
+CUST-1235,Female,42,45,Two year,UPI / Electronic,2289.49,103001.27,No,Yes,0
+CUST-1236,Female,21,8,One year,Credit Card,1723.54,13745.62,No,Yes,1
+CUST-1237,Female,27,53,Month-to-month,UPI / Electronic,899.69,47707.97,No,Yes,1
+CUST-1238,Male,20,55,Two year,Bank Transfer,688.82,37906.2,No,Yes,1
+CUST-1239,Female,58,32,Month-to-month,Mailed Check,946.39,30257.93,No,No,0
+CUST-1240,Female,62,51,Month-to-month,Credit Card,551.55,28153.99,No,Yes,0
+CUST-1241,Male,35,44,Month-to-month,Mailed Check,2370.37,104338.06,Yes,Yes,1
+CUST-1242,Female,64,70,One year,Bank Transfer,2024.25,141658.3,Yes,Yes,0
+CUST-1243,Male,53,18,One year,UPI / Electronic,1316.26,23665.94,No,Yes,0
+CUST-1244,Male,64,22,One year,Credit Card,2201.92,48467.27,Yes,No,0
+CUST-1245,Female,39,37,Month-to-month,Bank Transfer,847.81,31346.42,Yes,Yes,0
+CUST-1246,Male,51,56,Month-to-month,Credit Card,1876.67,105105.99,No,Yes,1
+CUST-1247,Male,64,59,Month-to-month,Credit Card,2182.49,128725.03,Yes,No,1
+CUST-1248,Male,25,3,One year,UPI / Electronic,1083.89,3246.89,No,Yes,0
+CUST-1249,Male,57,28,Month-to-month,Bank Transfer,1965.42,55055.67,No,No,1
+CUST-1250,Female,66,35,Month-to-month,Mailed Check,948.16,33204.25,No,Yes,1
+CUST-1251,Male,61,61,Two year,Credit Card,956.49,58377.4,No,Yes,0
+CUST-1252,Female,36,54,Month-to-month,Credit Card,534.53,28902.37,Yes,No,0
+CUST-1253,Male,59,63,Two year,Mailed Check,1267.13,79856.51,No,Yes,0
+CUST-1254,Male,58,7,Month-to-month,Bank Transfer,1904.37,13347.75,No,Yes,1
+CUST-1255,Male,54,49,One year,Credit Card,2367.49,115960.18,No,Yes,0
+CUST-1256,Male,23,31,Month-to-month,Credit Card,1627.35,50451.35,No,Yes,1
+CUST-1257,Female,69,58,Two year,Credit Card,2197.9,127431.97,Yes,No,0
+CUST-1258,Female,43,61,Month-to-month,Bank Transfer,2108.49,128648.7,No,No,0
+CUST-1259,Male,51,24,Month-to-month,Bank Transfer,680.35,16310.47,Yes,No,0
+CUST-1260,Male,62,20,Month-to-month,Mailed Check,1367.8,27362.24,No,No,1
+CUST-1261,Female,23,37,Month-to-month,Bank Transfer,556.23,20558.45,No,Yes,0
+CUST-1262,Male,54,4,Month-to-month,Bank Transfer,1799.74,7227.21,Yes,Yes,0
+CUST-1263,Male,50,20,Two year,UPI / Electronic,2388.78,47814.25,Yes,Yes,0
+CUST-1264,Male,39,60,Month-to-month,Mailed Check,600.6,36025.86,Yes,Yes,1
+CUST-1265,Female,38,24,One year,Credit Card,1913.54,45961.25,No,Yes,1
+CUST-1266,Female,23,50,One year,Bank Transfer,1689.92,84472.71,No,No,0
+CUST-1267,Female,23,49,One year,Credit Card,1582.93,77567.04,Yes,Yes,1
+CUST-1268,Male,65,51,Month-to-month,Credit Card,1157.26,59056.14,No,Yes,1
+CUST-1269,Male,21,36,Month-to-month,UPI / Electronic,1080.29,38873.03,Yes,Yes,0
+CUST-1270,Female,47,66,One year,Bank Transfer,398.55,26349.7,No,No,0
+CUST-1271,Female,28,34,Two year,Mailed Check,778.4,26427.79,Yes,No,0
+CUST-1272,Female,47,36,Month-to-month,Bank Transfer,332.39,11917.87,No,No,0
+CUST-1273,Female,48,6,Month-to-month,Credit Card,1578.12,9509.13,No,Yes,1
+CUST-1274,Male,41,39,Month-to-month,Mailed Check,531.88,20700.18,No,No,0
+CUST-1275,Female,26,42,Two year,Bank Transfer,2219.64,93274.07,No,Yes,0
+CUST-1276,Male,20,58,Month-to-month,Credit Card,1449.91,84139.92,No,No,0
+CUST-1277,Female,68,12,Month-to-month,Credit Card,1838.32,22023.54,No,Yes,1
+CUST-1278,Male,48,3,Two year,UPI / Electronic,1202.89,3612.43,No,Yes,1
+CUST-1279,Female,57,18,Month-to-month,UPI / Electronic,1532.28,27549.53,No,Yes,0
+CUST-1280,Female,54,40,Month-to-month,UPI / Electronic,2372.85,94906.82,No,No,1
+CUST-1281,Female,53,21,One year,Credit Card,481.01,10057.35,Yes,Yes,0
+CUST-1282,Female,41,15,Two year,Bank Transfer,857.66,12837.29,No,No,0
+CUST-1283,Male,48,26,Month-to-month,UPI / Electronic,2014.97,52375.55,Yes,Yes,0
+CUST-1284,Female,23,8,Month-to-month,Bank Transfer,516.22,4123.62,No,Yes,1
+CUST-1285,Male,19,42,Month-to-month,UPI / Electronic,465.45,19596.65,No,Yes,0
+CUST-1286,Male,37,44,Month-to-month,Mailed Check,1094.39,,No,Yes,1
+CUST-1287,Male,45,14,One year,Mailed Check,501.77,7048.52,Yes,Yes,0
+CUST-1288,Male,28,2,Month-to-month,UPI / Electronic,1586.17,3176.04,Yes,Yes,1
+CUST-1289,Female,21,37,Month-to-month,Credit Card,796.81,29515.97,No,No,1
+CUST-1290,Male,32,69,Month-to-month,UPI / Electronic,2269.54,156582.19,No,Yes,1
+CUST-1291,Male,23,38,One year,UPI / Electronic,2022.7,76883.49,No,No,0
+CUST-1292,Male,66,41,Month-to-month,Credit Card,1838.35,75421.73,No,Yes,1
+CUST-1293,Female,47,62,Two year,Mailed Check,1656.28,102670.82,No,No,0
+CUST-1294,Female,55,60,Month-to-month,Bank Transfer,2198.62,131934.6,No,Yes,0
+CUST-1295,Female,68,14,Two year,UPI / Electronic,789.74,11090.79,Yes,Yes,0
+CUST-1296,Female,19,2,Two year,Credit Card,2219.84,4481.26,No,Yes,0
+CUST-1297,Male,32,70,Month-to-month,UPI / Electronic,2035.88,142533.39,Yes,Yes,0
+CUST-1298,Male,28,17,Month-to-month,Credit Card,1944.95,33042.51,No,No,1
+CUST-1299,Female,25,28,Month-to-month,Bank Transfer,1533.76,42927.91,Yes,Yes,0
+CUST-1300,Male,43,66,Month-to-month,Bank Transfer,840.74,55440.92,No,Yes,1
+CUST-1301,Male,68,35,Month-to-month,Mailed Check,1230.81,43104.44,Yes,No,0
+CUST-1302,Male,62,5,Month-to-month,Credit Card,2044.86,10178.57,Yes,Yes,1
+CUST-1303,Female,61,65,Month-to-month,Credit Card,368.91,24015.62,No,No,0
+CUST-1304,Female,22,40,Two year,Mailed Check,2019.51,80742.27,Yes,Yes,0
+CUST-1305,Male,23,56,Month-to-month,Mailed Check,827.16,46288.15,Yes,No,0
+CUST-1306,Female,43,36,Two year,Credit Card,616.48,22190.93,No,Yes,0
+CUST-1307,Female,21,45,Month-to-month,Mailed Check,553.54,24933.09,Yes,Yes,1
+CUST-1308,Female,36,23,Two year,Bank Transfer,358.95,8219.75,Yes,Yes,0
+CUST-1309,Female,37,47,One year,UPI / Electronic,1450.89,68185.84,No,No,0
+CUST-1310,Female,50,31,Month-to-month,Bank Transfer,779.17,24152.56,No,Yes,0
+CUST-1311,Male,37,11,One year,Mailed Check,2475.75,27204.48,No,Yes,1
+CUST-1312,Female,66,10,Month-to-month,Credit Card,1562.76,15589.16,No,No,0
+CUST-1313,Male,29,67,Month-to-month,Credit Card,602.35,40391.09,No,No,0
+CUST-1314,Male,64,14,Two year,Bank Transfer,1814.28,25400.17,Yes,No,0
+CUST-1315,Female,18,10,Month-to-month,Credit Card,2274.04,22691.84,No,No,1
+CUST-1316,Male,43,1,Month-to-month,Mailed Check,1938.39,1968.69,No,Yes,1
+CUST-1317,Male,31,5,One year,Bank Transfer,467.17,2383.93,No,Yes,1
+CUST-1318,Male,55,20,Two year,Credit Card,2269.95,45409.59,No,No,0
+CUST-1319,Female,54,8,One year,UPI / Electronic,2045.64,16365.49,Yes,No,0
+CUST-1320,Female,28,43,Month-to-month,UPI / Electronic,647.27,27870.45,No,Yes,1
+CUST-1321,Male,53,1,One year,Mailed Check,412.93,458.18,No,Yes,1
+CUST-1322,Female,30,57,Month-to-month,Credit Card,1525.08,86955.01,No,No,1
+CUST-1323,Female,60,64,One year,Mailed Check,642.28,41100.47,Yes,Yes,0
+CUST-1324,Female,20,28,Two year,Bank Transfer,2135.1,59792.02,Yes,Yes,0
+CUST-1325,Female,50,37,One year,UPI / Electronic,1087.34,40251.67,Yes,Yes,0
+CUST-1326,Male,23,47,Two year,Bank Transfer,2307.36,108415.35,No,Yes,0
+CUST-1327,Male,67,37,Month-to-month,Credit Card,1543.51,57104.59,Yes,No,1
+CUST-1328,Female,27,49,One year,Mailed Check,700.88,34376.1,Yes,Yes,0
+CUST-1329,Female,22,44,Two year,Mailed Check,606.12,26684.75,No,No,0
+CUST-1330,Male,40,56,Month-to-month,Mailed Check,1567.24,87756.56,Yes,Yes,1
+CUST-1331,Male,27,28,Two year,Bank Transfer,1975.14,55320.26,No,Yes,0
+CUST-1332,Female,61,6,Month-to-month,UPI / Electronic,2018.31,12071.68,No,No,1
+CUST-1333,Male,19,61,One year,Bank Transfer,905.67,55236.02,No,Yes,0
+CUST-1334,Female,30,20,Two year,Bank Transfer,748.34,14996.11,No,Yes,0
+CUST-1335,Female,57,2,One year,Credit Card,335.86,643.77,No,Yes,0
+CUST-1336,Male,19,37,Month-to-month,Credit Card,1793.24,66318.48,No,Yes,1
+CUST-1337,Male,37,20,One year,Credit Card,467.45,9394.08,Yes,Yes,0
+CUST-1338,Female,18,26,Month-to-month,UPI / Electronic,1224.67,31812.41,Yes,No,0
+CUST-1339,Female,54,29,Two year,UPI / Electronic,1622.7,47034.39,Yes,No,0
+CUST-1340,Male,26,1,Month-to-month,Credit Card,2360.64,2407.6,No,No,1
+CUST-1341,Female,34,35,Month-to-month,Credit Card,984.96,34497.07,No,Yes,1
+CUST-1342,Male,26,70,One year,UPI / Electronic,848.5,59414.96,No,Yes,0
+CUST-1343,Female,28,59,Month-to-month,Mailed Check,1738.15,102586.14,No,Yes,0
+CUST-1344,Male,32,69,One year,UPI / Electronic,1661.33,,Yes,Yes,0
+CUST-1345,Male,41,33,One year,UPI / Electronic,1029.64,33998.72,No,Yes,0
+CUST-1346,Male,55,51,Two year,UPI / Electronic,2340.82,,No,Yes,0
+CUST-1347,Female,52,12,One year,Credit Card,2157.7,25925.32,Yes,No,0
+CUST-1348,Female,47,20,Month-to-month,Mailed Check,791.76,15836.01,No,Yes,0
+CUST-1349,Male,48,53,Month-to-month,UPI / Electronic,825.11,43742.85,Yes,Yes,0
+CUST-1350,Female,66,43,Month-to-month,Credit Card,1426.06,61318.35,No,No,1
+CUST-1351,Male,22,50,Month-to-month,Bank Transfer,2000.86,100040.82,No,Yes,1
+CUST-1352,Male,61,29,Month-to-month,Bank Transfer,395.89,11507.61,Yes,No,0
+CUST-1353,Female,67,57,One year,UPI / Electronic,1824.34,104000.24,No,No,0
+CUST-1354,Female,31,39,One year,Bank Transfer,1725.12,67293.01,Yes,No,1
+CUST-1355,Male,28,56,Month-to-month,Mailed Check,808.26,45257.59,No,Yes,0
+CUST-1356,Female,26,43,Two year,Bank Transfer,1797.98,77316.25,No,No,0
+CUST-1357,Female,51,50,Two year,Bank Transfer,2367.4,118394.57,Yes,Yes,0
+CUST-1358,Male,29,23,Two year,Mailed Check,401.93,,No,No,0
+CUST-1359,Male,52,44,One year,UPI / Electronic,1002.23,44117.78,No,Yes,0
+CUST-1360,Female,52,38,Month-to-month,UPI / Electronic,1262.99,48036.03,No,Yes,0
+CUST-1361,Male,18,23,Month-to-month,Mailed Check,2277.37,52411.54,Yes,Yes,0
+CUST-1362,Male,57,45,Month-to-month,Mailed Check,2415.98,108725.29,No,Yes,0
+CUST-1363,Female,39,52,Month-to-month,Mailed Check,1276.05,66371.74,No,No,1
+CUST-1364,Male,46,50,Two year,Bank Transfer,1949.06,97495.63,Yes,No,0
+CUST-1365,Male,25,8,Two year,Mailed Check,1468.65,11761.12,Yes,No,0
+CUST-1366,Female,28,1,Month-to-month,Credit Card,1482.12,1514.6,Yes,Yes,0
+CUST-1367,Female,58,8,Month-to-month,Bank Transfer,910.82,7305.44,No,No,0
+CUST-1368,Male,54,29,Two year,UPI / Electronic,776.3,22517.89,Yes,Yes,0
+CUST-1369,Male,31,5,Month-to-month,UPI / Electronic,932.61,4637.23,No,No,1
+CUST-1370,Female,47,47,Month-to-month,UPI / Electronic,1522.92,71569.84,No,No,0
+CUST-1371,Female,52,34,Two year,Bank Transfer,363.14,12393.53,No,Yes,0
+CUST-1372,Female,38,65,Month-to-month,Credit Card,2294.95,149187.53,No,No,1
+CUST-1373,Female,54,55,Month-to-month,Mailed Check,642.82,35361.54,No,Yes,0
+CUST-1374,Male,22,43,Month-to-month,Mailed Check,783.2,33720.9,No,Yes,0
+CUST-1375,Female,36,30,Two year,UPI / Electronic,1439.21,43184.95,Yes,Yes,0
+CUST-1376,Female,31,17,One year,UPI / Electronic,1861.25,31643.86,Yes,Yes,0
+CUST-1377,Male,43,26,Month-to-month,Bank Transfer,509.6,13275.53,No,No,0
+CUST-1378,Female,21,8,Month-to-month,Credit Card,997.93,8004.71,Yes,Yes,0
+CUST-1379,Male,42,47,Month-to-month,Mailed Check,2430.08,114183.08,No,Yes,1
+CUST-1380,Female,62,46,One year,Bank Transfer,876.15,40300.03,No,Yes,0
+CUST-1381,Female,59,68,One year,Mailed Check,987.71,67161.53,Yes,No,0
+CUST-1382,Female,42,33,Month-to-month,UPI / Electronic,2139.3,70584.72,No,No,1
+CUST-1383,Male,35,1,Two year,Mailed Check,409.47,411.2,No,No,0
+CUST-1384,Male,57,19,Month-to-month,Credit Card,1321.15,25093.16,No,No,0
+CUST-1385,Female,25,31,Month-to-month,Credit Card,1134.16,35128.89,No,Yes,1
+CUST-1386,Male,56,14,Month-to-month,UPI / Electronic,995.49,13928.1,No,Yes,1
+CUST-1387,Male,57,53,Month-to-month,Credit Card,927.54,49116.85,Yes,Yes,0
+CUST-1388,Male,31,48,Month-to-month,Credit Card,500.02,24008.54,No,Yes,0
+CUST-1389,Male,49,69,Month-to-month,Bank Transfer,991.62,68457.15,No,No,0
+CUST-1390,Male,68,62,Month-to-month,Mailed Check,393.72,24433.17,No,Yes,1
+CUST-1391,Male,55,66,One year,UPI / Electronic,2017.12,133115.96,Yes,No,0
+CUST-1392,Female,50,64,Month-to-month,UPI / Electronic,1175.1,75165.11,Yes,Yes,0
+CUST-1393,Female,40,70,One year,UPI / Electronic,1275.59,89261.51,No,Yes,0
+CUST-1394,Male,32,63,Two year,UPI / Electronic,2264.91,142693.88,No,Yes,0
+CUST-1395,Female,50,33,Month-to-month,UPI / Electronic,1746.72,57612.47,Yes,No,1
+CUST-1396,Female,42,41,Month-to-month,Credit Card,316.73,12990.33,No,No,0
+CUST-1397,Female,34,48,Month-to-month,Bank Transfer,2373.98,113924.2,No,No,0
+CUST-1398,Female,50,13,Month-to-month,UPI / Electronic,820.72,10704.25,No,Yes,1
+CUST-1399,Male,64,31,Month-to-month,Bank Transfer,535.75,16597.98,Yes,No,0
+CUST-1400,Female,19,68,One year,Bank Transfer,1988.88,135218.4,Yes,Yes,0
+CUST-1401,Female,31,4,One year,Credit Card,1400.05,5631.43,Yes,Yes,0
+CUST-1402,Male,57,19,Month-to-month,UPI / Electronic,1253.3,23796.98,No,No,1
+CUST-1403,Male,57,70,Two year,Credit Card,847.91,59314.85,No,Yes,0
+CUST-1404,Female,68,13,Month-to-month,UPI / Electronic,1503.44,19551.76,No,No,1
+CUST-1405,Female,56,23,Two year,Credit Card,902.65,20769.11,No,Yes,0
+CUST-1406,Female,68,1,One year,Bank Transfer,2282.48,2303.95,No,Yes,0
+CUST-1407,Female,23,54,One year,UPI / Electronic,772.45,41686.32,No,No,0
+CUST-1408,Female,23,71,Month-to-month,Mailed Check,2244.58,159359.56,No,Yes,1
+CUST-1409,Female,20,15,Month-to-month,Bank Transfer,1529.69,22923.59,Yes,No,1
+CUST-1410,Male,24,65,Two year,Mailed Check,2121.67,137866.65,Yes,Yes,0
+CUST-1411,Female,68,71,Month-to-month,Bank Transfer,1867.26,132613.12,No,No,1
+CUST-1412,Female,25,15,Two year,Credit Card,1831.73,27498.84,No,Yes,0
+CUST-1413,Male,59,21,Month-to-month,UPI / Electronic,1012.56,21243.91,Yes,Yes,1
+CUST-1414,Male,69,19,Month-to-month,Bank Transfer,813.57,15467.77,No,Yes,0
+CUST-1415,Male,32,60,Month-to-month,Credit Card,762.95,45747.13,No,Yes,1
+CUST-1416,Male,64,33,Month-to-month,UPI / Electronic,2184.82,72138.08,Yes,No,0
+CUST-1417,Female,46,49,Two year,UPI / Electronic,2103.94,103054.55,Yes,Yes,0
+CUST-1418,Female,50,35,Month-to-month,Bank Transfer,1268.26,44339.48,Yes,Yes,0
+CUST-1419,Female,69,44,Month-to-month,UPI / Electronic,590.29,25972.96,No,Yes,1
+CUST-1420,Female,47,11,Month-to-month,Bank Transfer,1139.95,12547.76,Yes,Yes,0
+CUST-1421,Female,56,66,Month-to-month,UPI / Electronic,1661.56,109670.86,No,No,1
+CUST-1422,Female,44,46,Month-to-month,Mailed Check,1298.69,59695.19,No,No,0
+CUST-1423,Male,53,9,Month-to-month,Credit Card,2015.42,18120.18,No,Yes,1
+CUST-1424,Female,46,3,Two year,Mailed Check,2493.77,7481.23,Yes,No,1
+CUST-1425,Male,55,26,Month-to-month,Bank Transfer,719.49,18678.4,No,Yes,0
+CUST-1426,Male,50,48,Month-to-month,Mailed Check,1310.23,62928.3,No,Yes,1
+CUST-1427,Female,54,66,Month-to-month,Bank Transfer,1247.16,82271.27,No,No,1
+CUST-1428,Male,44,70,Month-to-month,UPI / Electronic,968.88,67820.34,No,Yes,0
+CUST-1429,Female,50,28,Two year,UPI / Electronic,734.81,20593.82,Yes,No,0
+CUST-1430,Male,21,26,Month-to-month,Bank Transfer,443.52,11507.7,No,No,0
+CUST-1431,Female,39,25,Month-to-month,Mailed Check,2250.66,56278.92,No,Yes,0
+CUST-1432,Male,19,12,One year,UPI / Electronic,1222.67,14704.98,No,No,0
+CUST-1433,Female,27,5,Month-to-month,Credit Card,1392.17,6929.88,No,No,1
+CUST-1434,Female,22,48,Month-to-month,UPI / Electronic,2316.27,111222.68,No,Yes,1
+CUST-1435,Female,27,37,Two year,Credit Card,2006.84,74258.44,Yes,No,0
+CUST-1436,Female,50,44,One year,Mailed Check,586.1,25768.32,No,Yes,0
+CUST-1437,Female,55,15,Two year,Credit Card,1542.92,23136.89,No,No,0
+CUST-1438,Male,30,43,Month-to-month,Credit Card,1271.96,54675.5,No,No,0
+CUST-1439,Male,48,48,Month-to-month,Credit Card,2052.86,98559.79,Yes,Yes,0
+CUST-1440,Male,64,70,Month-to-month,Credit Card,1892.31,132491.33,No,Yes,0
+CUST-1441,Female,53,46,Month-to-month,UPI / Electronic,1817.89,83656.23,No,No,1
+CUST-1442,Male,62,43,Two year,Credit Card,1048.2,45121.18,Yes,Yes,0
+CUST-1443,Female,41,21,Month-to-month,UPI / Electronic,2069.92,43497.45,No,Yes,1
+CUST-1444,Female,69,23,Two year,Credit Card,414.26,9538.12,No,Yes,0
+CUST-1445,Male,32,47,One year,Bank Transfer,650.17,30541.91,No,Yes,0
+CUST-1446,Male,46,15,Month-to-month,Mailed Check,1037.37,15565.01,No,Yes,0
+CUST-1447,Female,25,25,Month-to-month,Credit Card,467.98,11653.61,No,Yes,0
+CUST-1448,Male,22,36,One year,Bank Transfer,815.99,29400.12,Yes,Yes,0
+CUST-1449,Female,46,51,Month-to-month,Credit Card,2125.33,108386.43,No,No,1
+CUST-1450,Female,64,15,Two year,Credit Card,2385.15,35729.25,No,Yes,0
+CUST-1451,Female,21,68,Month-to-month,Credit Card,969.13,65857.09,No,Yes,0
+CUST-1452,Female,29,21,Month-to-month,Bank Transfer,880.93,18488.28,No,Yes,1
+CUST-1453,Female,62,13,One year,Mailed Check,914.76,11900.22,No,Yes,0
+CUST-1454,Male,19,19,Two year,Bank Transfer,909.98,17286.04,Yes,Yes,0
+CUST-1455,Male,44,34,Month-to-month,Mailed Check,378.05,12865.62,No,Yes,0
+CUST-1456,Female,48,68,Two year,Credit Card,2338.22,158996.99,Yes,Yes,0
+CUST-1457,Female,68,52,Month-to-month,UPI / Electronic,769.14,40011.45,Yes,No,0
+CUST-1458,Male,68,27,One year,Credit Card,1223.01,32993.18,Yes,No,0
+CUST-1459,Male,53,29,One year,Mailed Check,320.31,9250.27,No,No,0
+CUST-1460,Female,53,28,Month-to-month,Bank Transfer,2186.5,61231.64,Yes,No,1
+CUST-1461,Male,43,35,Month-to-month,Credit Card,1907.55,66762.72,Yes,No,1
+CUST-1462,Female,60,8,One year,Bank Transfer,2381.86,19007.57,Yes,Yes,0
+CUST-1463,Male,44,16,Month-to-month,Bank Transfer,2018.55,32284.85,Yes,No,0
+CUST-1464,Female,22,36,One year,Bank Transfer,989.15,35570.01,No,Yes,0
+CUST-1465,Male,37,30,Month-to-month,Credit Card,844.32,25332.74,No,No,0
+CUST-1466,Female,28,18,Two year,Bank Transfer,1833.98,33001.22,Yes,No,0
+CUST-1467,Male,27,2,One year,Bank Transfer,1100.05,2211.42,No,Yes,0
+CUST-1468,Male,57,49,Two year,Credit Card,1544.67,75719.39,No,Yes,0
+CUST-1469,Female,55,4,Month-to-month,Bank Transfer,312.77,1231.05,No,Yes,1
+CUST-1470,Male,23,7,One year,Credit Card,435.15,3092.26,Yes,No,0
+CUST-1471,Female,25,39,One year,Mailed Check,1476.81,57599.15,No,No,0
+CUST-1472,Male,40,13,Month-to-month,Mailed Check,1544.36,20088.51,Yes,No,1
+CUST-1473,Female,64,31,Month-to-month,Mailed Check,1952.2,60536.27,Yes,Yes,0
+CUST-1474,Male,43,71,Month-to-month,Bank Transfer,589.32,41858.39,Yes,No,1
+CUST-1475,Female,63,63,One year,UPI / Electronic,1428.0,89965.1,No,Yes,0
+CUST-1476,Male,60,56,Month-to-month,UPI / Electronic,726.78,,Yes,No,0
+CUST-1477,Female,29,42,Month-to-month,Bank Transfer,504.03,21124.64,Yes,Yes,0
+CUST-1478,Male,43,61,One year,UPI / Electronic,1202.09,73279.7,Yes,Yes,0
+CUST-1479,Female,30,42,Month-to-month,Credit Card,658.34,27636.08,No,Yes,0
+CUST-1480,Female,57,56,Month-to-month,UPI / Electronic,786.92,44050.89,No,No,0
+CUST-1481,Female,35,36,Two year,Bank Transfer,997.62,35903.09,Yes,No,0
+CUST-1482,Male,42,68,Two year,Bank Transfer,869.65,59100.04,No,Yes,0
+CUST-1483,Female,50,7,Month-to-month,Credit Card,491.7,3465.72,No,Yes,1
+CUST-1484,Male,64,54,Month-to-month,Mailed Check,496.82,26863.98,No,No,0
+CUST-1485,Female,57,1,One year,Bank Transfer,724.15,768.02,Yes,Yes,1
+CUST-1486,Male,60,44,Month-to-month,Credit Card,410.23,18049.36,No,No,0
+CUST-1487,Female,29,45,Month-to-month,UPI / Electronic,1677.21,75494.54,Yes,Yes,0
+CUST-1488,Male,61,47,Month-to-month,UPI / Electronic,931.12,43798.2,No,Yes,0
+CUST-1489,Male,53,13,Month-to-month,Credit Card,914.44,11879.55,Yes,No,0
+CUST-1490,Female,65,22,One year,Credit Card,1029.4,22627.74,No,No,0
+CUST-1491,Male,21,21,Month-to-month,Bank Transfer,1757.15,36943.82,No,Yes,1
+CUST-1492,Male,22,9,One year,UPI / Electronic,2214.39,19931.08,No,Yes,1
+CUST-1493,Female,54,26,Two year,Credit Card,1968.99,51193.47,Yes,No,0
+CUST-1494,Male,25,9,Month-to-month,UPI / Electronic,1899.56,17063.88,No,Yes,1
+CUST-1495,Male,59,15,One year,Credit Card,1364.66,20430.72,Yes,No,0
+CUST-1496,Male,66,10,Two year,UPI / Electronic,1825.37,18287.91,No,Yes,0
+CUST-1497,Female,45,42,Month-to-month,Mailed Check,1515.08,63644.77,No,Yes,1
+CUST-1498,Male,48,24,Month-to-month,Bank Transfer,774.75,18576.58,No,No,1
+CUST-1499,Female,26,49,One year,UPI / Electronic,757.89,37105.78,No,No,0
+CUST-1500,Male,68,26,One year,Mailed Check,951.06,24733.11,No,Yes,1
+CUST-1501,Male,46,37,Two year,UPI / Electronic,2302.77,85210.88,No,No,0
+CUST-1502,Male,31,68,Month-to-month,UPI / Electronic,1503.31,102195.78,No,Yes,1
+CUST-1503,Female,57,50,Two year,Mailed Check,1913.59,95714.64,Yes,Yes,0
+CUST-1504,Male,58,24,Month-to-month,UPI / Electronic,1061.43,25432.75,No,No,1
+CUST-1505,Male,39,19,Month-to-month,UPI / Electronic,1195.97,22709.04,No,No,1
+CUST-1506,Female,28,60,One year,Bank Transfer,575.24,34532.44,No,No,0
+CUST-1507,Male,40,39,Month-to-month,Mailed Check,675.85,26335.56,Yes,Yes,0
+CUST-1508,Female,18,18,Month-to-month,Mailed Check,2119.18,38178.01,No,Yes,1
+CUST-1509,Female,63,19,Month-to-month,Credit Card,1585.64,30151.15,No,Yes,1
+CUST-1510,Male,54,36,Month-to-month,UPI / Electronic,1041.57,37525.42,No,Yes,1
+CUST-1511,Female,38,55,Month-to-month,Bank Transfer,2065.27,113551.76,No,No,1
+CUST-1512,Male,43,69,Two year,UPI / Electronic,841.34,58016.51,No,Yes,0
+CUST-1513,Female,63,47,Month-to-month,UPI / Electronic,2446.27,114953.34,No,No,0
+CUST-1514,Female,53,49,One year,Credit Card,1057.6,51824.21,Yes,Yes,0
+CUST-1515,Male,40,33,One year,UPI / Electronic,1041.08,34380.44,Yes,Yes,0
+CUST-1516,Female,18,21,Two year,Bank Transfer,985.21,20723.06,No,Yes,0
+CUST-1517,Female,68,22,Month-to-month,Bank Transfer,567.65,12508.73,No,Yes,0
+CUST-1518,Female,57,48,Two year,Credit Card,543.5,26130.86,No,Yes,0
+CUST-1519,Female,32,37,Month-to-month,UPI / Electronic,1724.83,63842.58,No,No,0
+CUST-1520,Female,38,15,One year,Bank Transfer,2224.26,33344.53,Yes,Yes,0
+CUST-1521,Male,64,35,One year,UPI / Electronic,2038.15,71311.76,No,No,1
+CUST-1522,Female,26,71,Two year,UPI / Electronic,609.44,43289.86,Yes,Yes,0
+CUST-1523,Male,26,32,Month-to-month,UPI / Electronic,1499.28,47946.25,Yes,No,1
+CUST-1524,Female,27,11,One year,Credit Card,531.3,5803.57,No,Yes,0
+CUST-1525,Male,69,10,Month-to-month,UPI / Electronic,398.65,3989.72,Yes,No,0
+CUST-1526,Male,43,57,One year,Bank Transfer,1743.05,,No,Yes,0
+CUST-1527,Female,58,25,Two year,UPI / Electronic,1476.34,36868.64,No,No,0
+CUST-1528,Female,52,2,Month-to-month,Bank Transfer,479.45,988.09,No,No,0
+CUST-1529,Female,69,64,Two year,UPI / Electronic,375.87,24086.84,Yes,Yes,0
+CUST-1530,Male,42,35,Month-to-month,Bank Transfer,2476.46,86674.33,Yes,Yes,1
+CUST-1531,Female,43,7,Month-to-month,Bank Transfer,365.05,2511.08,Yes,Yes,1
+CUST-1532,Male,28,18,Month-to-month,UPI / Electronic,1276.96,22952.74,No,No,0
+CUST-1533,Male,55,67,Month-to-month,UPI / Electronic,1409.16,94434.46,No,Yes,0
+CUST-1534,Male,19,42,One year,Bank Transfer,557.02,23416.02,No,Yes,0
+CUST-1535,Female,24,39,Month-to-month,Mailed Check,670.94,26206.5,Yes,Yes,1
+CUST-1536,Female,35,41,Month-to-month,Credit Card,1072.97,44000.04,No,Yes,0
+CUST-1537,Male,44,24,Two year,Mailed Check,1974.69,47354.97,Yes,No,0
+CUST-1538,Male,51,60,Two year,Mailed Check,1414.58,84836.94,Yes,Yes,0
+CUST-1539,Female,44,46,Two year,UPI / Electronic,1702.38,78331.59,No,No,1
+CUST-1540,Male,34,19,Two year,Credit Card,2466.38,46829.6,No,No,0
+CUST-1541,Female,60,68,One year,Mailed Check,1988.61,135208.32,Yes,Yes,0
+CUST-1542,Male,61,42,Month-to-month,UPI / Electronic,1254.6,52691.92,Yes,No,0
+CUST-1543,Female,68,32,Month-to-month,Mailed Check,1281.17,,No,Yes,1
+CUST-1544,Male,41,39,One year,Mailed Check,1660.3,64726.58,Yes,No,0
+CUST-1545,Female,42,36,Month-to-month,UPI / Electronic,1762.8,63451.59,Yes,Yes,1
+CUST-1546,Male,24,36,One year,UPI / Electronic,1400.56,50398.12,No,No,0
+CUST-1547,Female,69,3,Month-to-month,UPI / Electronic,1717.69,5116.71,No,Yes,1
+CUST-1548,Female,23,8,Month-to-month,Credit Card,350.77,2828.96,No,Yes,1
+CUST-1549,Male,41,70,Month-to-month,Mailed Check,1244.17,87123.21,No,Yes,1
+CUST-1550,Male,50,41,One year,UPI / Electronic,912.66,37394.81,No,Yes,0
+CUST-1551,Female,66,68,One year,Bank Transfer,583.18,39683.68,Yes,No,0
+CUST-1552,Male,46,13,One year,Mailed Check,518.0,6722.56,No,Yes,0
+CUST-1553,Female,60,49,Month-to-month,Bank Transfer,1626.02,79675.65,No,No,1
+CUST-1554,Male,39,60,Month-to-month,Credit Card,1450.92,87090.8,Yes,Yes,0
+CUST-1555,Female,43,2,Two year,UPI / Electronic,856.89,1738.78,No,No,0
+CUST-1556,Female,45,60,One year,Bank Transfer,1335.09,80135.91,Yes,Yes,0
+CUST-1557,Female,67,5,Month-to-month,Credit Card,1381.91,6873.23,Yes,Yes,1
+CUST-1558,Female,38,44,Two year,UPI / Electronic,728.02,31989.85,Yes,Yes,1
+CUST-1559,Female,66,27,Month-to-month,Bank Transfer,1733.6,46846.54,No,No,0
+CUST-1560,Female,24,32,Month-to-month,Bank Transfer,2017.02,64533.42,No,Yes,1
+CUST-1561,Male,34,21,Month-to-month,Credit Card,2040.22,42823.41,No,No,1
+CUST-1562,Male,37,8,One year,UPI / Electronic,1624.43,13017.91,No,No,1
+CUST-1563,Male,58,50,One year,UPI / Electronic,1424.6,71263.64,Yes,Yes,0
+CUST-1564,Female,66,67,Month-to-month,Bank Transfer,433.22,29061.99,Yes,No,0
+CUST-1565,Female,37,44,Two year,Bank Transfer,932.23,40999.72,Yes,Yes,0
+CUST-1566,Female,39,58,Month-to-month,Bank Transfer,504.2,29278.82,Yes,Yes,0
+CUST-1567,Female,45,3,Month-to-month,UPI / Electronic,2419.41,7212.32,Yes,No,0
+CUST-1568,Male,57,70,Month-to-month,Credit Card,596.18,41687.57,No,No,0
+CUST-1569,Male,66,2,Month-to-month,Credit Card,632.91,,No,No,0
+CUST-1570,Female,24,44,Month-to-month,UPI / Electronic,2256.07,99223.39,No,Yes,0
+CUST-1571,Male,18,2,One year,Mailed Check,2375.64,4733.74,Yes,Yes,0
+CUST-1572,Male,49,35,Two year,Credit Card,1983.82,69450.98,No,Yes,0
+CUST-1573,Female,30,30,Month-to-month,Bank Transfer,310.89,9310.43,Yes,No,0
+CUST-1574,Male,47,8,Month-to-month,Mailed Check,301.96,2383.64,Yes,Yes,1
+CUST-1575,Female,40,22,Month-to-month,Mailed Check,1130.82,24856.18,No,No,0
+CUST-1576,Male,68,44,Month-to-month,Credit Card,614.47,27032.44,No,Yes,1
+CUST-1577,Female,36,58,Month-to-month,Mailed Check,339.45,19685.64,Yes,Yes,0
+CUST-1578,Female,49,36,One year,Mailed Check,1319.95,47546.5,No,Yes,1
+CUST-1579,Female,47,69,Month-to-month,Credit Card,2373.74,163813.08,Yes,Yes,1
+CUST-1580,Female,46,31,One year,Credit Card,1011.4,31349.08,No,Yes,1
+CUST-1581,Male,66,47,Two year,Mailed Check,1753.51,82449.54,No,No,0
+CUST-1582,Female,62,55,Month-to-month,Bank Transfer,1733.92,95327.02,No,No,0
+CUST-1583,Female,46,62,Two year,UPI / Electronic,851.38,52761.1,Yes,Yes,0
+CUST-1584,Female,47,30,One year,Mailed Check,1729.94,51931.0,No,Yes,0
+CUST-1585,Male,33,55,One year,Mailed Check,766.13,42124.95,No,Yes,1
+CUST-1586,Female,57,16,Month-to-month,Bank Transfer,567.42,9126.84,No,No,0
+CUST-1587,Male,36,12,Month-to-month,Mailed Check,1842.04,22101.11,Yes,Yes,0
+CUST-1588,Female,35,17,Month-to-month,Mailed Check,548.57,9354.88,No,No,1
+CUST-1589,Male,18,16,Month-to-month,UPI / Electronic,2492.2,39865.43,No,Yes,1
+CUST-1590,Male,31,12,Month-to-month,UPI / Electronic,702.6,8423.7,No,Yes,0
+CUST-1591,Female,68,8,One year,UPI / Electronic,1606.11,12837.17,No,No,0
+CUST-1592,Male,64,3,Month-to-month,Credit Card,1204.02,3633.97,No,Yes,1
+CUST-1593,Female,67,16,Two year,Credit Card,577.05,9237.55,No,Yes,0
+CUST-1594,Female,19,30,One year,UPI / Electronic,360.26,10852.18,No,Yes,1
+CUST-1595,Female,45,23,Month-to-month,UPI / Electronic,1669.01,38362.32,Yes,Yes,1
+CUST-1596,Male,66,5,Month-to-month,Credit Card,2073.87,10329.41,No,Yes,1
+CUST-1597,Male,67,65,Two year,Bank Transfer,2151.43,139832.28,Yes,No,0
+CUST-1598,Female,47,30,Two year,Mailed Check,1360.97,40840.77,No,No,0
+CUST-1599,Female,55,21,One year,Mailed Check,2009.4,,Yes,Yes,0
+CUST-1600,Male,68,70,Month-to-month,UPI / Electronic,1779.26,124532.82,No,No,1
+CUST-1601,Female,21,22,Month-to-month,Bank Transfer,1892.36,41647.3,Yes,Yes,1
+CUST-1602,Female,18,32,Month-to-month,Credit Card,1382.72,44232.06,Yes,Yes,0
+CUST-1603,Female,25,33,Month-to-month,UPI / Electronic,1692.51,55864.55,No,Yes,1
+CUST-1604,Male,46,16,One year,Bank Transfer,2071.16,33177.04,Yes,Yes,0
+CUST-1605,Male,56,38,One year,Bank Transfer,1174.35,44598.44,Yes,Yes,0
+CUST-1606,Male,20,14,One year,Bank Transfer,2072.15,,Yes,No,0
+CUST-1607,Female,49,36,Two year,Credit Card,1601.44,57701.17,No,Yes,1
+CUST-1608,Female,27,23,One year,Credit Card,663.98,15308.4,No,Yes,0
+CUST-1609,Female,27,66,Month-to-month,Mailed Check,353.31,23324.92,No,Yes,1
+CUST-1610,Male,36,2,Month-to-month,Mailed Check,1097.06,2195.78,No,No,1
+CUST-1611,Female,63,65,Two year,Bank Transfer,1501.73,97590.91,No,No,0
+CUST-1612,Female,51,67,Month-to-month,Bank Transfer,2146.6,143823.92,Yes,Yes,1
+CUST-1613,Female,50,52,Two year,Credit Card,579.47,30167.26,Yes,Yes,0
+CUST-1614,Female,40,62,Two year,Mailed Check,2059.45,127704.42,No,Yes,0
+CUST-1615,Male,45,23,Month-to-month,Bank Transfer,2197.62,50524.26,Yes,Yes,1
+CUST-1616,Male,49,26,One year,Mailed Check,630.51,16363.41,Yes,Yes,0
+CUST-1617,Female,67,68,Two year,Mailed Check,2172.51,147707.2,No,Yes,0
+CUST-1618,Male,24,55,One year,Bank Transfer,2480.2,136377.98,No,Yes,1
+CUST-1619,Male,46,6,Two year,Credit Card,1898.05,11347.86,Yes,Yes,0
+CUST-1620,Female,25,35,Two year,Bank Transfer,2025.49,70884.06,Yes,Yes,0
+CUST-1621,Female,18,22,Month-to-month,Bank Transfer,2486.71,54668.95,No,No,1
+CUST-1622,Male,20,43,Month-to-month,Mailed Check,1631.06,70102.77,No,No,1
+CUST-1623,Female,41,15,Two year,Bank Transfer,976.35,14649.98,No,Yes,0
+CUST-1624,Male,40,60,One year,Credit Card,2141.57,128460.66,No,Yes,0
+CUST-1625,Female,25,12,Month-to-month,Bank Transfer,1650.87,19766.83,No,Yes,0
+CUST-1626,Male,64,49,Month-to-month,Credit Card,1577.63,77285.61,No,Yes,1
+CUST-1627,Female,54,42,One year,Credit Card,857.0,35966.03,No,No,0
+CUST-1628,Male,20,38,Two year,Mailed Check,1962.94,74593.25,Yes,Yes,0
+CUST-1629,Male,68,45,Two year,UPI / Electronic,478.67,21500.39,No,No,0
+CUST-1630,Male,50,35,One year,UPI / Electronic,2332.43,81660.23,Yes,No,0
+CUST-1631,Female,45,30,Month-to-month,Mailed Check,1015.81,30514.92,Yes,Yes,0
+CUST-1632,Male,64,30,Month-to-month,Bank Transfer,580.1,17427.34,No,Yes,0
+CUST-1633,Male,25,6,Two year,Mailed Check,1272.21,7636.54,No,Yes,0
+CUST-1634,Female,51,67,Month-to-month,Credit Card,392.43,26328.88,No,Yes,0
+CUST-1635,Female,52,7,Month-to-month,UPI / Electronic,1805.18,12655.75,Yes,Yes,1
+CUST-1636,Male,49,52,Month-to-month,Mailed Check,2284.95,118768.46,No,Yes,0
+CUST-1637,Male,41,14,One year,Bank Transfer,2140.98,29963.13,No,No,0
+CUST-1638,Female,31,15,Two year,Mailed Check,579.21,8723.25,No,Yes,0
+CUST-1639,Female,49,21,Month-to-month,UPI / Electronic,576.8,12097.39,Yes,Yes,0
+CUST-1640,Female,63,35,Month-to-month,Mailed Check,2088.56,73053.12,No,No,1
+CUST-1641,Female,60,66,One year,Mailed Check,2332.36,153960.38,No,No,0
+CUST-1642,Female,33,2,Two year,UPI / Electronic,1312.47,2655.14,Yes,Yes,0
+CUST-1643,Male,21,35,Month-to-month,Credit Card,1396.74,48851.96,No,No,0
+CUST-1644,Female,69,20,Month-to-month,Credit Card,999.18,19987.33,No,Yes,1
+CUST-1645,Male,54,10,Month-to-month,UPI / Electronic,2266.38,22633.0,Yes,Yes,0
+CUST-1646,Male,38,25,Two year,Mailed Check,1717.79,42966.67,Yes,Yes,0
+CUST-1647,Male,31,66,Month-to-month,UPI / Electronic,933.15,61565.06,Yes,Yes,1
+CUST-1648,Female,48,25,Month-to-month,Credit Card,956.32,23889.62,No,No,0
+CUST-1649,Male,65,54,One year,Bank Transfer,2259.64,122055.06,Yes,No,0
+CUST-1650,Male,35,33,One year,Mailed Check,328.99,10854.3,No,No,1
+CUST-1651,Female,24,36,Month-to-month,Credit Card,1009.0,36340.98,No,Yes,1
+CUST-1652,Male,27,14,Two year,Mailed Check,1518.58,21250.36,No,Yes,0
+CUST-1653,Male,24,65,Month-to-month,UPI / Electronic,625.08,40610.0,Yes,Yes,0
+CUST-1654,Female,50,54,One year,Bank Transfer,501.62,27100.03,Yes,Yes,0
+CUST-1655,Male,40,52,Month-to-month,UPI / Electronic,2092.61,108781.21,No,No,1
+CUST-1656,Male,38,3,One year,Bank Transfer,2266.69,6787.37,No,No,1
+CUST-1657,Male,36,41,Month-to-month,Mailed Check,2110.93,86519.03,No,Yes,1
+CUST-1658,Female,65,6,Two year,Mailed Check,2276.33,13677.56,Yes,Yes,0
+CUST-1659,Female,36,25,One year,UPI / Electronic,1515.85,37940.67,Yes,Yes,0
+CUST-1660,Female,53,13,One year,Bank Transfer,2085.97,27167.16,No,Yes,0
+CUST-1661,Male,46,8,One year,Bank Transfer,1143.89,9146.15,Yes,Yes,0
+CUST-1662,Male,35,21,One year,Mailed Check,1764.79,37035.84,No,Yes,0
+CUST-1663,Female,19,68,Month-to-month,UPI / Electronic,2474.44,168256.2,No,Yes,1
+CUST-1664,Male,18,25,Month-to-month,Bank Transfer,795.6,19924.73,Yes,Yes,0
+CUST-1665,Male,64,68,Two year,Mailed Check,1156.78,78631.64,No,Yes,0
+CUST-1666,Female,22,45,Month-to-month,Credit Card,1355.1,61024.71,No,Yes,1
+CUST-1667,Female,37,60,One year,UPI / Electronic,602.63,36141.99,Yes,No,0
+CUST-1668,Male,28,12,Two year,Credit Card,477.28,5775.94,No,Yes,0
+CUST-1669,Male,59,32,Month-to-month,UPI / Electronic,2124.39,68014.34,Yes,No,0
+CUST-1670,Male,19,13,One year,Mailed Check,2447.95,31854.21,No,Yes,0
+CUST-1671,Female,20,31,Month-to-month,Bank Transfer,1189.4,36853.19,Yes,Yes,0
+CUST-1672,Female,40,20,One year,Bank Transfer,491.83,9787.48,No,Yes,0
+CUST-1673,Female,29,18,Month-to-month,Bank Transfer,443.79,7976.43,No,Yes,0
+CUST-1674,Female,37,60,Month-to-month,UPI / Electronic,2259.9,135574.18,No,No,0
+CUST-1675,Male,22,63,One year,Mailed Check,1319.39,83075.31,Yes,Yes,0
+CUST-1676,Female,54,6,Two year,Credit Card,1003.06,6018.9,No,No,0
+CUST-1677,Female,55,32,One year,Mailed Check,1347.21,43101.02,Yes,No,0
+CUST-1678,Female,47,43,Month-to-month,Credit Card,999.27,42982.07,No,Yes,1
+CUST-1679,Female,26,2,Month-to-month,UPI / Electronic,1374.88,2761.88,No,Yes,1
+CUST-1680,Female,51,60,One year,UPI / Electronic,2190.02,131363.27,Yes,No,0
+CUST-1681,Male,61,23,Month-to-month,Credit Card,1602.06,36895.08,Yes,Yes,1
+CUST-1682,Male,52,31,Two year,Credit Card,1827.24,56613.13,No,No,0
+CUST-1683,Female,69,5,Two year,Credit Card,1101.28,5500.93,Yes,Yes,0
+CUST-1684,Male,39,34,One year,Mailed Check,1923.71,65404.95,No,Yes,0
+CUST-1685,Female,61,10,Two year,Credit Card,1765.56,17686.91,Yes,Yes,0
+CUST-1686,Female,41,2,Month-to-month,UPI / Electronic,562.04,1084.0,Yes,Yes,1
+CUST-1687,Male,34,11,One year,UPI / Electronic,1558.81,17139.77,No,No,1
+CUST-1688,Male,27,50,Month-to-month,Bank Transfer,863.84,43204.85,No,Yes,1
+CUST-1689,Female,47,31,Two year,Credit Card,2068.01,64079.83,No,No,0
+CUST-1690,Female,63,56,Month-to-month,Mailed Check,1236.06,69232.11,Yes,Yes,1
+CUST-1691,Female,40,9,One year,Mailed Check,2487.31,22428.16,No,Yes,0
+CUST-1692,Male,49,21,Two year,Mailed Check,502.5,10602.25,Yes,Yes,0
+CUST-1693,Female,34,28,Month-to-month,Bank Transfer,2015.77,56394.81,No,Yes,1
+CUST-1694,Female,67,62,Month-to-month,UPI / Electronic,1781.14,110404.24,No,Yes,1
+CUST-1695,Female,68,7,One year,Mailed Check,1987.5,13893.53,No,Yes,0
+CUST-1696,Male,34,16,Month-to-month,UPI / Electronic,975.57,15599.03,No,No,1
+CUST-1697,Female,31,4,Month-to-month,Bank Transfer,1381.52,5500.31,No,Yes,1
+CUST-1698,Female,26,4,Month-to-month,Credit Card,2051.32,8175.63,No,Yes,1
+CUST-1699,Male,57,40,Month-to-month,Credit Card,810.59,32469.06,No,No,0
+CUST-1700,Female,19,17,Two year,Credit Card,796.27,13578.44,No,No,0
+CUST-1701,Female,62,52,One year,Mailed Check,1511.31,78542.82,Yes,Yes,0
+CUST-1702,Male,42,52,Month-to-month,Credit Card,1450.84,75427.56,Yes,Yes,0
+CUST-1703,Female,56,36,Month-to-month,Mailed Check,919.98,33109.79,No,No,1
+CUST-1704,Male,26,38,Month-to-month,Bank Transfer,954.77,36255.16,Yes,Yes,0
+CUST-1705,Male,39,50,Month-to-month,Bank Transfer,910.26,45525.89,Yes,Yes,1
+CUST-1706,Female,60,63,Month-to-month,Mailed Check,1996.33,125782.83,Yes,Yes,0
+CUST-1707,Female,63,63,Month-to-month,UPI / Electronic,1733.18,109225.39,No,No,0
+CUST-1708,Female,21,62,Month-to-month,Credit Card,2130.32,132103.93,Yes,Yes,0
+CUST-1709,Female,43,7,One year,Credit Card,2445.04,17119.54,Yes,No,1
+CUST-1710,Male,46,27,Month-to-month,Credit Card,1342.16,36253.68,Yes,Yes,0
+CUST-1711,Female,62,14,One year,Mailed Check,445.73,6217.62,No,No,0
+CUST-1712,Male,51,71,One year,Bank Transfer,404.8,28750.11,No,Yes,0
+CUST-1713,Female,40,5,One year,Credit Card,949.46,4746.22,No,Yes,1
+CUST-1714,Female,54,55,One year,Bank Transfer,2350.6,129246.33,No,No,1
+CUST-1715,Female,28,2,Month-to-month,Credit Card,1450.07,2874.39,No,Yes,0
+CUST-1716,Male,23,62,Two year,Credit Card,896.93,55588.83,Yes,Yes,0
+CUST-1717,Female,35,21,One year,Mailed Check,1177.17,24763.0,Yes,Yes,0
+CUST-1718,Female,38,21,Month-to-month,UPI / Electronic,1615.91,33907.15,Yes,Yes,1
+CUST-1719,Female,59,10,Two year,Mailed Check,1735.49,17333.82,Yes,Yes,0
+CUST-1720,Female,53,58,One year,Credit Card,637.62,36968.9,No,No,0
+CUST-1721,Male,58,39,Month-to-month,Credit Card,2448.47,95506.7,No,Yes,0
+CUST-1722,Female,55,5,Month-to-month,UPI / Electronic,1497.5,7449.32,No,Yes,1
+CUST-1723,Male,51,65,Month-to-month,Bank Transfer,597.51,38883.54,No,Yes,1
+CUST-1724,Male,34,13,Two year,Bank Transfer,2265.0,29481.56,No,No,0
+CUST-1725,Male,54,53,One year,Credit Card,463.2,24557.32,Yes,No,0
+CUST-1726,Male,42,45,Two year,Bank Transfer,2296.02,103338.3,Yes,Yes,0
+CUST-1727,Male,55,32,One year,Credit Card,2491.44,79677.75,No,Yes,1
+CUST-1728,Male,29,36,Month-to-month,UPI / Electronic,1839.95,66222.09,No,No,1
+CUST-1729,Female,40,60,Month-to-month,UPI / Electronic,1993.98,119668.37,Yes,Yes,0
+CUST-1730,Male,59,11,One year,Credit Card,1041.07,11409.52,No,No,0
+CUST-1731,Male,39,63,One year,UPI / Electronic,2370.47,149317.84,No,No,0
+CUST-1732,Male,38,21,Two year,Mailed Check,1464.37,30760.3,No,No,0
+CUST-1733,Female,44,52,Month-to-month,Mailed Check,1910.25,99308.64,No,Yes,0
+CUST-1734,Female,48,55,Month-to-month,UPI / Electronic,2332.04,128305.6,Yes,No,1
+CUST-1735,Male,23,26,One year,Credit Card,2444.4,63517.51,Yes,No,0
+CUST-1736,Female,44,68,One year,Credit Card,2132.05,145009.14,No,Yes,0
+CUST-1737,Male,57,34,One year,UPI / Electronic,965.64,32832.55,Yes,Yes,0
+CUST-1738,Male,51,52,One year,Bank Transfer,2425.4,126145.83,No,Yes,0
+CUST-1739,Female,29,52,Month-to-month,Mailed Check,1680.86,87385.79,No,Yes,1
+CUST-1740,Male,62,29,One year,Bank Transfer,2346.41,68047.34,Yes,Yes,0
+CUST-1741,Female,24,38,One year,Credit Card,1786.43,67920.02,No,Yes,1
+CUST-1742,Female,27,42,Two year,Credit Card,974.93,40943.75,No,Yes,0
+CUST-1743,Male,62,21,Two year,Bank Transfer,1113.05,23360.02,Yes,Yes,0
+CUST-1744,Male,34,42,Month-to-month,UPI / Electronic,1510.04,63425.3,No,Yes,1
+CUST-1745,Female,43,13,Month-to-month,Bank Transfer,2037.03,26503.13,No,No,1
+CUST-1746,Male,38,64,Two year,Bank Transfer,998.56,63902.2,No,No,0
+CUST-1747,Male,45,17,Month-to-month,Mailed Check,1574.41,26808.86,Yes,Yes,0
+CUST-1748,Male,63,9,Two year,Mailed Check,1059.37,9513.82,No,Yes,0
+CUST-1749,Female,19,41,Month-to-month,Bank Transfer,2093.69,85838.84,No,Yes,0
+CUST-1750,Female,60,1,One year,Bank Transfer,1325.8,1351.49,Yes,No,1
+CUST-1751,Male,18,2,Two year,Credit Card,467.79,954.49,Yes,No,0
+CUST-1752,Female,68,60,Two year,Mailed Check,664.32,39895.56,No,No,0
+CUST-1753,Female,53,48,Month-to-month,Mailed Check,433.43,20854.32,Yes,Yes,0
+CUST-1754,Female,68,29,One year,Credit Card,1397.47,40519.32,No,No,0
+CUST-1755,Female,43,10,Month-to-month,UPI / Electronic,532.94,5290.52,No,Yes,0
+CUST-1756,Female,46,58,Month-to-month,Mailed Check,550.11,31859.42,No,No,0
+CUST-1757,Male,38,60,One year,Mailed Check,2369.31,142181.29,Yes,Yes,0
+CUST-1758,Male,28,21,One year,UPI / Electronic,2218.84,46633.04,No,No,0
+CUST-1759,Male,57,28,Two year,Mailed Check,1293.59,36192.59,No,Yes,0
+CUST-1760,Female,28,34,Month-to-month,Mailed Check,2467.77,83870.02,No,No,1
+CUST-1761,Female,53,8,Month-to-month,UPI / Electronic,299.41,2351.5,No,No,0
+CUST-1762,Male,66,59,Month-to-month,UPI / Electronic,1649.75,97367.52,No,Yes,1
+CUST-1763,Female,56,49,Month-to-month,Bank Transfer,1655.14,81083.0,No,Yes,0
+CUST-1764,Male,57,17,Month-to-month,Credit Card,1305.37,22181.46,No,No,0
+CUST-1765,Male,52,60,One year,Credit Card,1172.29,70337.68,No,Yes,0
+CUST-1766,Male,51,45,Month-to-month,UPI / Electronic,1300.84,58571.75,No,Yes,0
+CUST-1767,Female,64,69,Two year,UPI / Electronic,1211.91,83636.87,No,Yes,0
+CUST-1768,Female,41,32,Two year,Mailed Check,1906.08,61006.07,Yes,Yes,0
+CUST-1769,Male,39,44,One year,Bank Transfer,596.78,26225.89,Yes,Yes,0
+CUST-1770,Male,22,65,Two year,Bank Transfer,733.81,47698.97,No,Yes,0
+CUST-1771,Male,50,8,One year,UPI / Electronic,696.14,5590.66,No,Yes,1
+CUST-1772,Male,53,43,Month-to-month,Mailed Check,876.44,37734.25,No,Yes,1
+CUST-1773,Female,64,1,Month-to-month,Mailed Check,1454.57,1424.71,No,No,1
+CUST-1774,Female,37,51,Month-to-month,Credit Card,543.66,27677.61,Yes,No,0
+CUST-1775,Male,36,24,One year,Credit Card,2208.97,52972.81,No,No,0
+CUST-1776,Male,52,24,Two year,Mailed Check,953.2,22864.39,Yes,Yes,0
+CUST-1777,Female,69,17,Month-to-month,Credit Card,656.58,11193.91,No,No,0
+CUST-1778,Female,60,5,Two year,UPI / Electronic,1785.37,8877.56,No,Yes,0
+CUST-1779,Male,34,20,One year,Mailed Check,382.79,7651.47,No,Yes,0
+CUST-1780,Male,62,21,Month-to-month,Credit Card,1662.93,34904.45,No,No,1
+CUST-1781,Male,60,58,Two year,Bank Transfer,1835.04,106387.57,No,No,0
+CUST-1782,Female,51,31,Month-to-month,Mailed Check,771.82,23921.44,No,No,1
+CUST-1783,Female,26,11,Month-to-month,Mailed Check,391.32,4279.99,Yes,No,1
+CUST-1784,Female,43,52,One year,Bank Transfer,1099.02,57134.23,Yes,Yes,0
+CUST-1785,Male,19,15,Month-to-month,UPI / Electronic,515.91,7759.21,No,Yes,1
+CUST-1786,Male,26,7,One year,Bank Transfer,555.25,3888.91,No,No,1
+CUST-1787,Female,26,28,Month-to-month,Mailed Check,858.37,23996.82,No,Yes,1
+CUST-1788,Female,57,51,Month-to-month,UPI / Electronic,949.03,48446.67,No,Yes,0
+CUST-1789,Male,34,58,Two year,Credit Card,1464.93,84979.53,Yes,No,0
+CUST-1790,Female,18,5,Month-to-month,Credit Card,1791.46,8983.89,No,No,1
+CUST-1791,Female,42,5,Month-to-month,Credit Card,1603.1,7973.42,No,Yes,0
+CUST-1792,Male,60,8,Month-to-month,Mailed Check,625.39,4957.83,Yes,No,0
+CUST-1793,Female,57,64,Two year,Bank Transfer,677.59,,Yes,No,0
+CUST-1794,Male,59,10,Month-to-month,UPI / Electronic,2232.29,22291.78,No,No,1
+CUST-1795,Male,42,38,Month-to-month,Credit Card,1527.38,58031.88,Yes,Yes,1
+CUST-1796,Male,56,8,Month-to-month,UPI / Electronic,2212.86,17746.46,Yes,Yes,1
+CUST-1797,Male,52,25,Month-to-month,Mailed Check,1116.4,,Yes,Yes,0
+CUST-1798,Male,20,66,Two year,Credit Card,1650.68,108923.91,No,Yes,0
+CUST-1799,Male,67,50,One year,Mailed Check,1451.06,72559.19,No,Yes,0
+CUST-1800,Male,54,67,Month-to-month,Bank Transfer,1001.07,67032.88,No,Yes,0
+CUST-1801,Female,61,49,One year,Mailed Check,1332.81,65318.64,No,Yes,1
+CUST-1802,Male,61,36,Month-to-month,Mailed Check,1404.48,50568.12,Yes,No,0
+CUST-1803,Male,68,68,Two year,Bank Transfer,740.7,50396.8,No,Yes,0
+CUST-1804,Female,47,41,Two year,UPI / Electronic,992.02,40721.49,Yes,No,0
+CUST-1805,Female,55,62,Month-to-month,Bank Transfer,2040.1,126461.29,Yes,No,1
+CUST-1806,Female,51,10,Two year,Bank Transfer,2313.73,23138.27,No,Yes,1
+CUST-1807,Male,29,21,One year,Mailed Check,1090.55,22942.44,No,No,0
+CUST-1808,Female,36,36,Month-to-month,UPI / Electronic,974.34,35104.76,No,Yes,1
+CUST-1809,Male,54,12,Month-to-month,Credit Card,728.43,8739.9,No,Yes,0
+CUST-1810,Male,61,2,Month-to-month,Bank Transfer,1791.68,3627.9,No,No,1
+CUST-1811,Male,66,13,One year,UPI / Electronic,1009.82,13083.38,Yes,Yes,0
+CUST-1812,Male,34,53,Two year,Bank Transfer,2472.05,131061.75,Yes,No,0
+CUST-1813,Female,27,32,One year,Bank Transfer,1015.51,32451.37,Yes,Yes,0
+CUST-1814,Female,66,16,Two year,Bank Transfer,1166.1,18662.33,Yes,No,0
+CUST-1815,Male,64,32,One year,Bank Transfer,1626.34,52081.92,No,Yes,0
+CUST-1816,Male,29,32,Two year,Mailed Check,2062.71,65982.99,Yes,No,0
+CUST-1817,Male,33,11,One year,UPI / Electronic,1331.94,14648.56,Yes,Yes,0
+CUST-1818,Female,41,10,Month-to-month,UPI / Electronic,1228.84,12270.83,No,No,1
+CUST-1819,Male,36,15,One year,UPI / Electronic,2489.4,37386.21,No,No,0
+CUST-1820,Male,25,17,Two year,Bank Transfer,322.09,5507.89,Yes,Yes,0
+CUST-1821,Female,48,40,Month-to-month,Mailed Check,2268.14,90746.5,Yes,No,0
+CUST-1822,Female,38,18,Two year,Bank Transfer,627.11,11296.74,No,Yes,0
+CUST-1823,Male,34,55,Month-to-month,Bank Transfer,2028.04,111574.26,No,No,1
+CUST-1824,Female,40,25,Month-to-month,UPI / Electronic,1658.45,41450.48,No,Yes,1
+CUST-1825,Female,54,59,Two year,Bank Transfer,1051.06,62007.3,No,No,0
+CUST-1826,Male,33,22,Month-to-month,Credit Card,2221.52,48896.44,No,No,1
+CUST-1827,Female,23,30,Month-to-month,Bank Transfer,327.4,9807.78,No,Yes,0
+CUST-1828,Male,25,44,Month-to-month,Credit Card,797.72,35056.07,No,Yes,1
+CUST-1829,Female,42,32,Two year,Bank Transfer,1546.16,49434.55,No,Yes,0
+CUST-1830,Male,35,51,Month-to-month,Mailed Check,1072.39,54653.43,Yes,No,0
+CUST-1831,Male,42,46,Two year,Mailed Check,1641.83,75561.15,No,Yes,0
+CUST-1832,Male,29,21,Month-to-month,UPI / Electronic,352.04,7390.06,No,Yes,1
+CUST-1833,Female,32,32,Two year,Bank Transfer,555.21,17788.01,Yes,No,0
+CUST-1834,Male,43,39,Two year,Credit Card,578.61,22555.08,No,Yes,0
+CUST-1835,Female,58,12,Month-to-month,Credit Card,715.42,8560.91,Yes,No,1
+CUST-1836,Male,62,47,Month-to-month,Bank Transfer,1309.53,61532.63,No,Yes,0
+CUST-1837,Male,43,18,Month-to-month,Credit Card,1953.68,35195.66,No,Yes,0
+CUST-1838,Female,64,21,One year,Mailed Check,2291.19,48127.51,No,No,0
+CUST-1839,Male,49,13,Month-to-month,Credit Card,2136.82,27822.42,No,Yes,0
+CUST-1840,Male,27,21,Month-to-month,UPI / Electronic,732.15,15393.12,Yes,Yes,0
+CUST-1841,Female,33,8,Month-to-month,Mailed Check,1269.53,10163.26,No,No,0
+CUST-1842,Male,24,46,Month-to-month,Mailed Check,737.71,33945.68,No,Yes,1
+CUST-1843,Male,34,7,Month-to-month,Mailed Check,880.84,6210.12,No,No,1
+CUST-1844,Male,40,23,One year,Bank Transfer,1406.8,32385.22,No,No,0
+CUST-1845,Male,43,22,Two year,Bank Transfer,448.84,9826.88,No,Yes,0
+CUST-1846,Female,38,22,Month-to-month,Mailed Check,778.98,17140.97,No,Yes,1
+CUST-1847,Female,39,29,One year,Bank Transfer,2356.83,68366.9,Yes,No,0
+CUST-1848,Male,24,13,Month-to-month,Credit Card,1324.46,17242.85,No,Yes,0
+CUST-1849,Female,31,2,Two year,Bank Transfer,1278.85,2529.01,No,Yes,0
+CUST-1850,Male,32,29,Two year,Bank Transfer,331.05,9637.17,No,No,0
+CUST-1851,Female,24,52,Two year,Mailed Check,843.28,43896.14,Yes,Yes,0
+CUST-1852,Male,26,27,Two year,UPI / Electronic,2204.84,59504.35,Yes,No,1
+CUST-1853,Male,68,50,Month-to-month,UPI / Electronic,661.18,33097.26,No,Yes,1
+CUST-1854,Male,65,23,Two year,UPI / Electronic,1212.27,27841.91,No,Yes,0
+CUST-1855,Male,25,44,One year,Credit Card,330.53,14498.89,No,Yes,0
+CUST-1856,Male,67,22,Month-to-month,Bank Transfer,1351.34,29692.4,No,No,0
+CUST-1857,Male,40,43,Two year,UPI / Electronic,345.25,14801.52,No,No,0
+CUST-1858,Female,46,37,Month-to-month,Mailed Check,2102.14,77813.68,No,No,1
+CUST-1859,Male,35,61,One year,UPI / Electronic,2113.68,128890.39,Yes,Yes,1
+CUST-1860,Female,48,56,Month-to-month,UPI / Electronic,2032.03,113770.85,No,Yes,0
+CUST-1861,Male,47,3,Month-to-month,Bank Transfer,922.4,2727.58,Yes,Yes,1
+CUST-1862,Female,69,63,One year,Bank Transfer,2140.92,134857.5,No,Yes,0
+CUST-1863,Female,56,19,One year,Bank Transfer,1493.6,28337.46,No,Yes,0
+CUST-1864,Female,52,23,Month-to-month,Credit Card,1121.38,25808.54,No,No,1
+CUST-1865,Male,35,29,Month-to-month,Credit Card,1674.73,48530.5,No,Yes,0
+CUST-1866,Male,59,30,Two year,UPI / Electronic,326.15,9819.68,No,No,0
+CUST-1867,Female,56,39,Month-to-month,Bank Transfer,613.51,23958.61,No,Yes,0
+CUST-1868,Male,34,25,Month-to-month,UPI / Electronic,1932.05,48252.62,Yes,No,1
+CUST-1869,Female,31,8,Two year,Mailed Check,836.16,6728.85,No,Yes,0
+CUST-1870,Male,48,58,Two year,Mailed Check,1614.62,,Yes,Yes,0
+CUST-1871,Female,41,16,Month-to-month,Bank Transfer,1146.23,18313.64,No,Yes,1
+CUST-1872,Female,52,1,One year,Bank Transfer,2179.57,2132.81,Yes,Yes,0
+CUST-1873,Male,61,5,Two year,Mailed Check,2394.31,11955.13,Yes,Yes,0
+CUST-1874,Female,62,3,Two year,Bank Transfer,2242.84,6729.91,No,Yes,1
+CUST-1875,Male,51,65,Month-to-month,Credit Card,894.36,58163.06,No,Yes,1
+CUST-1876,Female,20,4,Month-to-month,Credit Card,726.16,2888.44,No,No,1
+CUST-1877,Female,54,64,Month-to-month,Bank Transfer,1342.76,85957.19,Yes,No,0
+CUST-1878,Male,60,10,Month-to-month,Mailed Check,315.14,3120.15,No,No,1
+CUST-1879,Male,57,21,One year,UPI / Electronic,355.78,7496.44,Yes,Yes,0
+CUST-1880,Male,43,46,Month-to-month,Bank Transfer,1516.24,69720.64,No,No,0
+CUST-1881,Female,40,27,One year,Bank Transfer,1443.99,38952.08,No,Yes,0
+CUST-1882,Male,61,66,Month-to-month,UPI / Electronic,2487.08,164115.82,No,Yes,0
+CUST-1883,Female,56,41,Month-to-month,Bank Transfer,743.05,30433.26,No,Yes,0
+CUST-1884,Female,32,13,Two year,UPI / Electronic,866.83,,Yes,Yes,0
+CUST-1885,Male,66,9,Month-to-month,Mailed Check,548.79,4973.59,No,Yes,1
+CUST-1886,Male,21,36,Month-to-month,Credit Card,2317.59,83391.2,No,Yes,1
+CUST-1887,Female,46,58,Two year,Mailed Check,2010.18,116611.14,No,Yes,0
+CUST-1888,Female,39,54,Month-to-month,Credit Card,2108.15,113855.53,No,No,1
+CUST-1889,Male,42,12,One year,UPI / Electronic,2285.08,27458.21,Yes,No,0
+CUST-1890,Male,30,14,One year,Credit Card,1453.78,20327.33,No,No,0
+CUST-1891,Male,35,34,Month-to-month,Mailed Check,1291.63,,No,No,1
+CUST-1892,Male,50,53,Two year,Credit Card,1025.86,54413.16,Yes,Yes,0
+CUST-1893,Male,33,20,Month-to-month,UPI / Electronic,1595.27,31921.4,Yes,No,0
+CUST-1894,Female,62,16,Month-to-month,Credit Card,1298.41,20763.44,Yes,No,0
+CUST-1895,Female,59,70,Month-to-month,Bank Transfer,1292.44,90433.94,No,Yes,0
+CUST-1896,Female,61,56,Month-to-month,Mailed Check,2360.24,132149.69,No,Yes,1
+CUST-1897,Female,19,58,Two year,Bank Transfer,2463.87,142912.58,Yes,No,0
+CUST-1898,Male,52,4,Month-to-month,UPI / Electronic,2051.27,8226.9,No,Yes,1
+CUST-1899,Male,59,4,Month-to-month,Credit Card,1963.87,7817.92,No,No,0
+CUST-1900,Male,51,20,Month-to-month,Bank Transfer,1796.23,35934.56,No,Yes,1
+CUST-1901,Female,47,10,One year,Bank Transfer,664.36,6648.64,Yes,Yes,0
+CUST-1902,Female,30,24,Month-to-month,Credit Card,429.03,10298.12,Yes,Yes,1
+CUST-1903,Male,30,26,Month-to-month,Credit Card,1818.6,47302.61,No,Yes,1
+CUST-1904,Male,35,37,One year,Mailed Check,1902.33,70419.95,Yes,No,0
+CUST-1905,Female,49,54,Month-to-month,Bank Transfer,402.34,21708.66,Yes,No,1
+CUST-1906,Female,49,21,Month-to-month,Bank Transfer,2340.71,49193.81,No,Yes,1
+CUST-1907,Male,52,38,Month-to-month,UPI / Electronic,499.51,18947.44,No,Yes,1
+CUST-1908,Male,56,46,Month-to-month,Mailed Check,927.98,42654.38,Yes,No,0
+CUST-1909,Female,63,4,Two year,UPI / Electronic,1778.26,7089.72,Yes,No,0
+CUST-1910,Male,69,60,Month-to-month,Bank Transfer,672.72,40325.15,Yes,Yes,0
+CUST-1911,Male,46,57,Month-to-month,UPI / Electronic,420.91,23964.9,Yes,Yes,1
+CUST-1912,Male,66,45,Month-to-month,Bank Transfer,1027.52,46199.04,No,No,0
+CUST-1913,Female,46,20,One year,Bank Transfer,1984.14,39714.98,No,No,1
+CUST-1914,Female,61,17,One year,UPI / Electronic,1209.09,20518.43,No,Yes,1
+CUST-1915,Female,33,71,Month-to-month,UPI / Electronic,1735.54,123248.07,No,Yes,1
+CUST-1916,Female,61,4,One year,Credit Card,1574.16,6251.43,No,No,1
+CUST-1917,Female,64,14,One year,Credit Card,347.88,4915.17,Yes,No,0
+CUST-1918,Female,27,3,Two year,Credit Card,2473.79,7442.49,No,Yes,0
+CUST-1919,Female,47,58,Two year,Bank Transfer,390.14,22578.8,No,Yes,0
+CUST-1920,Male,42,55,Month-to-month,UPI / Electronic,2428.17,133575.74,No,No,1
+CUST-1921,Male,56,4,Month-to-month,Mailed Check,1508.7,6036.21,Yes,Yes,0
+CUST-1922,Male,37,24,Month-to-month,Bank Transfer,2417.95,58058.74,No,Yes,0
+CUST-1923,Male,22,34,Month-to-month,Mailed Check,551.46,18751.89,No,Yes,1
+CUST-1924,Male,18,30,Two year,UPI / Electronic,1377.9,41351.1,No,Yes,0
+CUST-1925,Male,47,19,Month-to-month,Bank Transfer,671.91,12794.92,Yes,No,0
+CUST-1926,Male,66,31,Month-to-month,Mailed Check,411.14,12735.85,No,Yes,1
+CUST-1927,Female,20,60,One year,Mailed Check,1657.56,99403.87,No,No,1
+CUST-1928,Female,62,60,Month-to-month,Credit Card,756.12,45402.19,No,Yes,0
+CUST-1929,Male,31,19,Month-to-month,Credit Card,1591.93,30234.76,No,Yes,0
+CUST-1930,Male,47,49,Month-to-month,Credit Card,546.2,26763.4,Yes,Yes,0
+CUST-1931,Female,67,63,Month-to-month,Bank Transfer,1029.37,64801.09,Yes,No,0
+CUST-1932,Male,21,22,One year,UPI / Electronic,2018.59,44408.19,Yes,No,0
+CUST-1933,Male,35,24,Month-to-month,UPI / Electronic,1260.51,30300.89,No,Yes,1
+CUST-1934,Female,54,30,Month-to-month,Credit Card,1680.04,50379.03,Yes,No,1
+CUST-1935,Male,42,58,Month-to-month,Credit Card,1723.41,99947.32,No,No,0
+CUST-1936,Female,65,31,Month-to-month,Credit Card,2155.26,66831.78,No,No,1
+CUST-1937,Male,18,64,One year,Mailed Check,1013.83,64916.6,Yes,Yes,0
+CUST-1938,Female,63,19,Month-to-month,Credit Card,1811.05,34401.69,No,No,0
+CUST-1939,Female,32,48,Month-to-month,Mailed Check,2414.55,115879.37,No,Yes,1
+CUST-1940,Female,26,45,Two year,UPI / Electronic,1905.54,85793.08,No,Yes,0
+CUST-1941,Male,32,55,One year,Bank Transfer,1376.72,75737.31,No,No,0
+CUST-1942,Female,66,55,Month-to-month,Bank Transfer,1686.58,92723.8,No,Yes,1
+CUST-1943,Male,41,18,One year,Bank Transfer,1926.3,34630.29,Yes,Yes,0
+CUST-1944,Male,21,63,One year,Bank Transfer,1646.01,103696.98,No,Yes,0
+CUST-1945,Male,29,47,One year,Mailed Check,335.69,15749.44,Yes,No,0
+CUST-1946,Male,54,57,Month-to-month,Mailed Check,727.5,41442.9,No,No,1
+CUST-1947,Female,54,45,Two year,Credit Card,2082.03,93729.12,Yes,Yes,0
+CUST-1948,Female,60,33,Month-to-month,Mailed Check,898.83,29620.35,No,No,1
+CUST-1949,Male,23,17,Month-to-month,Credit Card,1908.44,32465.02,No,Yes,1
+CUST-1950,Male,56,70,Month-to-month,Credit Card,1117.66,78213.31,No,Yes,0
+CUST-1951,Female,63,4,Month-to-month,Bank Transfer,1447.15,5814.63,Yes,No,1
+CUST-1952,Male,41,20,Two year,Mailed Check,448.54,8993.04,No,Yes,0
+CUST-1953,Female,28,47,Month-to-month,Mailed Check,697.7,32742.64,No,Yes,1
+CUST-1954,Male,30,15,Month-to-month,Credit Card,2404.83,36073.36,No,Yes,1
+CUST-1955,Male,51,70,Two year,Credit Card,2257.3,157974.93,Yes,No,0
+CUST-1956,Female,42,47,Month-to-month,UPI / Electronic,1734.01,,No,Yes,1
+CUST-1957,Male,24,9,Month-to-month,UPI / Electronic,1310.22,11829.14,No,No,1
+CUST-1958,Female,69,16,Month-to-month,Credit Card,1785.67,28562.55,Yes,No,1
+CUST-1959,Male,21,69,Month-to-month,UPI / Electronic,1659.94,114530.3,No,Yes,1
+CUST-1960,Male,25,61,Month-to-month,UPI / Electronic,1549.81,94518.74,No,No,0
+CUST-1961,Male,37,10,One year,Credit Card,429.19,4313.56,No,Yes,1
+CUST-1962,Female,46,50,Month-to-month,Credit Card,1691.17,84544.37,Yes,Yes,0
+CUST-1963,Male,68,3,Month-to-month,Mailed Check,1990.62,5948.64,No,No,1
+CUST-1964,Male,62,70,One year,Credit Card,2485.98,174011.82,No,No,1
+CUST-1965,Male,63,51,One year,Credit Card,323.37,16451.02,No,Yes,0
+CUST-1966,Male,27,19,Month-to-month,Bank Transfer,1905.38,36226.88,No,Yes,0
+CUST-1967,Female,60,42,Month-to-month,Mailed Check,1556.94,65342.74,No,Yes,1
+CUST-1968,Female,51,35,Month-to-month,Mailed Check,1253.91,43901.3,No,Yes,1
+CUST-1969,Male,43,46,Month-to-month,Mailed Check,579.65,26632.19,Yes,Yes,1
+CUST-1970,Female,58,26,Month-to-month,Bank Transfer,1198.99,31146.98,No,Yes,1
+CUST-1971,Male,66,69,Month-to-month,Credit Card,1078.63,74439.03,No,No,0
+CUST-1972,Male,20,64,Two year,Mailed Check,965.23,61824.01,Yes,Yes,0
+CUST-1973,Male,23,37,Month-to-month,Mailed Check,1906.94,70584.55,Yes,Yes,1
+CUST-1974,Female,22,49,One year,UPI / Electronic,1840.6,90161.98,No,No,0
+CUST-1975,Female,22,21,Month-to-month,Mailed Check,1594.84,33459.24,No,No,0
+CUST-1976,Female,64,64,One year,Credit Card,2364.06,151336.46,No,Yes,0
+CUST-1977,Female,40,5,One year,Credit Card,1068.68,5337.82,No,Yes,0
+CUST-1978,Female,66,70,Two year,UPI / Electronic,835.36,58438.91,Yes,No,0
+CUST-1979,Female,26,4,Month-to-month,Mailed Check,1741.99,7004.18,No,Yes,1
+CUST-1980,Female,52,39,One year,Mailed Check,736.39,28750.82,No,Yes,0
+CUST-1981,Female,37,35,Month-to-month,Mailed Check,992.02,34769.09,No,No,1
+CUST-1982,Female,66,1,One year,Bank Transfer,793.13,834.1,Yes,Yes,0
+CUST-1983,Male,59,24,Month-to-month,Mailed Check,451.14,10862.54,No,Yes,0
+CUST-1984,Female,52,57,Month-to-month,Credit Card,2119.5,,Yes,Yes,1
+CUST-1985,Female,67,70,Month-to-month,Credit Card,858.99,60089.74,No,Yes,0
+CUST-1986,Female,35,41,Month-to-month,Bank Transfer,1339.66,54932.96,No,Yes,0
+CUST-1987,Female,34,54,Month-to-month,Bank Transfer,394.29,21294.81,No,No,1
+CUST-1988,Female,41,46,Month-to-month,Mailed Check,1837.55,84523.1,Yes,Yes,0
+CUST-1989,Female,20,60,Two year,UPI / Electronic,1026.23,61563.48,No,Yes,0
+CUST-1990,Female,49,60,One year,Bank Transfer,1937.42,116238.32,No,Yes,1
+CUST-1991,Female,52,57,Two year,Bank Transfer,1206.29,68765.46,No,No,0
+CUST-1992,Female,55,31,Month-to-month,Mailed Check,729.66,22569.67,No,Yes,1
+CUST-1993,Female,30,24,Two year,Mailed Check,1427.99,34247.83,No,Yes,0
+CUST-1994,Female,64,36,Two year,Bank Transfer,586.11,21101.79,No,No,0
+CUST-1995,Male,42,30,One year,UPI / Electronic,1268.19,38067.92,No,Yes,0
+CUST-1996,Male,26,24,One year,Bank Transfer,997.07,23897.1,No,Yes,1
+CUST-1997,Female,21,30,Month-to-month,Mailed Check,2305.31,69163.99,Yes,Yes,0
+CUST-1998,Female,31,7,Two year,Mailed Check,433.04,3052.73,No,Yes,1
+CUST-1999,Male,54,35,Month-to-month,Bank Transfer,1825.84,63898.86,No,Yes,1
