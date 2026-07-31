@@ -49,29 +49,18 @@ The system includes automated visual data exploratory pipelines generated under 
 ## 📁 Clean Repository Structure
 
 ```text
-ml_mastery_project/
+ml-customer-churn-system/
 ├── data/                       # Customer Datasets & Visualization Plots
 │   ├── customer_churn_data.csv
 │   └── plots/
 │       ├── 1_target_distribution.png
 │       ├── 2_contract_vs_churn.png
 │       └── 3_correlation_heatmap.png
-├── notes_pdf/                  # PDF Study Guides & Reference Manuals
-│   ├── ML_Course_Part1_Study_Guide.pdf
-│   ├── ML_Course_Master_Notes.pdf
-│   ├── ML_Mastery_Lessons_1_to_8.pdf
-│   ├── Scikit_Learn_Master_Guide.pdf
-│   ├── my_practice_v2_line_by_line_guide.pdf
-│   └── ML_Preprocessing_Master_Reference.pdf
 ├── src/                        # Modular Source Code Scripts
 │   ├── create_dataset.py       # Dataset Generation Script
 │   └── eda_visualizations.py   # Automated Plot Generation Script
 ├── app.py                      # Interactive Streamlit Web Dashboard
 ├── index.py                    # Master End-to-End Pipeline Script
-├── my_practice_v2.py           # Advanced Practice & Threshold Tuning Script
-├── my_eda_practice.py          # Visual EDA Plotting Script
-├── ml_preprocessing_master_reference.py # 16-Module Reference Script
-├── my_full_revision_practice.py# Complete Scratch Revision Script
 ├── .gitignore                  # Git Exclusion Rules
 └── README.md                   # Project Documentation
 ```
@@ -82,7 +71,7 @@ ml_mastery_project/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ml-customer-churn-system.git
+git clone https://github.com/ankurmittal9081/ml-customer-churn-system.git
 cd ml-customer-churn-system
 ```
 
@@ -109,6 +98,6 @@ python -m streamlit run app.py
 ---
 
 ## 👤 Author & Acknowledgements
-- **Author**: Ankur Mittal & Pair Programming AI Assistant
+- **Author**: Ankur Mittal
 - **Domain**: Machine Learning & Predictive Analytics
 - **License**: MIT License
