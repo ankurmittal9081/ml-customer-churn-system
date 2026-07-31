@@ -11,7 +11,7 @@
 ## 📌 Executive Summary
 Customer Churn is one of the most critical challenges facing modern subscription-based businesses (Telecom, SaaS, Banking, E-Commerce). Acquiring a new customer can cost up to **5x to 25x more** than retaining an existing one. 
 
-This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest Ensembles), and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
+This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting), and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
 
 ---
 
@@ -23,20 +23,22 @@ This repository presents an **End-to-End Machine Learning Pipeline** designed to
 - **Multi-Model Evaluation**:
   - Baseline Logistic Regression (72.00% Accuracy)
   - Decision Tree Classifier (71.00% Accuracy)
-  - **Random Forest Classifier (100 Trees Ensemble - 72.50% Accuracy, 61.84% Recall)**
+  - Random Forest Classifier (100 Trees Ensemble - 72.50% Accuracy)
+  - **Gradient Boosting Classifier (100 Trees Sequential Error Correction - 70.00% Accuracy)**
 - **Probability Calibration**: `predict_proba` risk scoring for every test customer.
 - **Custom Business Threshold Tuning**: Adjusted decision boundary from $0.50$ to $0.30$, boosting **Recall to 83.56%** (catching 83.5% of churners before they leave!).
 
 ---
 
-## 📈 Model Comparison & Performance Table
+## 📈 Model Leaderboard Comparison Table
 
-| Model Algorithm | Accuracy | Recall (Churn) | Key Insight / Advantage |
+| Model Algorithm | Accuracy | Recall (Churn) | Key Advantage |
 | :--- | :---: | :---: | :--- |
 | **Logistic Regression (0.50)** | 72.00% | 63.15% | Linear baseline model |
 | **Logistic Regression (0.30 Custom)** | 70.00% | **83.56%** 🚀 | **Maximum Churn Capture (Proactive Alert)** |
 | **Decision Tree (Single Tree)** | 71.00% | 48.68% | Human-readable If-Else rules |
-| **Random Forest (100 Trees Ensemble)** | **72.50%** | **61.84%** 🌲 | **Higher Stability & Generalization** |
+| **Random Forest (100 Trees Ensemble)** | **72.50%** | **61.84%** 🌲 | **Highest Overall Accuracy & Stability** |
+| **Gradient Boosting (100 Trees)** | 70.00% | 59.21% 🚀 | **Sequential Error Correction (Boosting)** |
 
 ---
 

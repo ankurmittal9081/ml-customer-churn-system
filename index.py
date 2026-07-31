@@ -1,6 +1,6 @@
 # ==============================================================================
 # END-TO-END MACHINE LEARNING PROJECT: CUSTOMER CHURN PREDICTION
-# Master Pipeline: Preprocessing -> Logistic Regression -> Decision Tree -> Random Forest
+# Master Pipeline: Preprocessing -> Logistic Regression -> Decision Tree -> Random Forest -> Gradient Boosting
 # ==============================================================================
 
 import sys
@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, recall_score, confusion_matrix, classification_report
 
 # Ensure UTF-8 output encoding for Windows terminal
@@ -65,4 +65,13 @@ rf_pred = rf_model.predict(X_test)
 print(f"Random Forest Accuracy: {accuracy_score(y_test, rf_pred) * 100:.2f}%")
 print(f"Random Forest Recall:   {recall_score(y_test, rf_pred) * 100:.2f}%\n")
 
-print("=== PIPELINE EXECUTION COMPLETE ===")
+# 8. Model 4: Gradient Boosting Classifier
+print("=== 5. MODEL 4: GRADIENT BOOSTING CLASSIFIER ===")
+gb_model = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, random_state=42)
+gb_model.fit(X_train, y_train)
+gb_pred = gb_model.predict(X_test)
+
+print(f"Gradient Boosting Accuracy: {accuracy_score(y_test, gb_pred) * 100:.2f}%")
+print(f"Gradient Boosting Recall:   {recall_score(y_test, gb_pred) * 100:.2f}%\n")
+
+print("=== MULTI-MODEL PIPELINE EXECUTION COMPLETE ===")
