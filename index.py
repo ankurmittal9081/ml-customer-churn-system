@@ -1,6 +1,6 @@
 # ==============================================================================
 # END-TO-END MACHINE LEARNING PROJECT: CUSTOMER CHURN PREDICTION
-# Master Pipeline: Data Cleaning -> Encoding -> Scaling -> Logistic Regression -> Decision Tree
+# Master Pipeline: Preprocessing -> Logistic Regression -> Decision Tree -> Random Forest
 # ==============================================================================
 
 import sys
@@ -9,6 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, recall_score, confusion_matrix, classification_report
 
 # Ensure UTF-8 output encoding for Windows terminal
@@ -54,5 +55,14 @@ dt_pred = dt_model.predict(X_test)
 
 print(f"Decision Tree Accuracy: {accuracy_score(y_test, dt_pred) * 100:.2f}%")
 print(f"Decision Tree Recall:   {recall_score(y_test, dt_pred) * 100:.2f}%\n")
+
+# 7. Model 3: Random Forest Classifier (100 Trees Ensemble)
+print("=== 4. MODEL 3: RANDOM FOREST CLASSIFIER (ENSEMBLE) ===")
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+rf_model.fit(X_train, y_train)
+rf_pred = rf_model.predict(X_test)
+
+print(f"Random Forest Accuracy: {accuracy_score(y_test, rf_pred) * 100:.2f}%")
+print(f"Random Forest Recall:   {recall_score(y_test, rf_pred) * 100:.2f}%\n")
 
 print("=== PIPELINE EXECUTION COMPLETE ===")
