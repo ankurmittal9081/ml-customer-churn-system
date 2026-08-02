@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+import joblib
 
 # Set page config for wide layout & dark modern theme
 st.set_page_config(
@@ -24,13 +25,6 @@ st.markdown("""
         font-size: 1.1rem;
         color: #475569;
         margin-bottom: 20px;
-    }
-    .metric-card {
-        background-color: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 10px;
-        padding: 15px;
-        text-align: center;
     }
     .high-risk {
         background-color: #fef2f2;
@@ -60,6 +54,16 @@ def load_data():
     return df
 
 df = load_data()
+
+# 2. Load Trained Production ML Pipeline Model
+@st.cache_resource
+def load_model():
+    model_path = os.path.join('models', 'churn_pipeline.pkl')
+    if os.path.exists(model_path):
+        return joblib.load(model_path)
+    return None
+
+pipeline = load_model()
 
 # Header Section
 st.markdown('<p class="main-header">🎯 Universal Customer Churn & Retention Dashboard</p>', unsafe_allow_html=True)
@@ -108,49 +112,57 @@ if menu == "📈 Executive Analytics Dashboard":
 
 elif menu == "🔮 Live Churn Predictor":
     st.subheader("🔮 Predict Churn Risk for a New Customer")
-    st.write("Fill in customer details to evaluate retention risk in real-time.")
+    st.write("Fill in customer details to evaluate retention risk in real-time using trained ML Pipeline.")
     
     with st.form("churn_prediction_form"):
         col_a, col_b = st.columns(2)
         
         with col_a:
+            gender = st.selectbox("Gender", ["Male", "Female"])
             age = st.slider("Customer Age", 18, 80, 35)
             tenure = st.slider("Tenure (Months as Customer)", 1, 72, 6)
             monthly_bill = st.number_input("Monthly Bill Amount (₹)", min_value=200.0, max_value=5000.0, value=1499.0)
+            total_bill = st.number_input("Total Charges (₹)", min_value=200.0, max_value=200000.0, value=float(tenure * monthly_bill))
             
         with col_b:
             contract = st.selectbox("Contract Type", ["Month-to-month", "One year", "Two year"])
             payment = st.selectbox("Payment Method", ["UPI / Electronic", "Credit Card", "Bank Transfer", "Mailed Check"])
             tech_support = st.selectbox("Tech Support Subscribed?", ["Yes", "No"])
+            paperless = st.selectbox("Paperless Billing?", ["Yes", "No"])
             
         submit_btn = st.form_submit_button("⚡ Predict Churn Probability")
         
     if submit_btn:
-        # Heuristic ML Risk Score Calculation (Simulating trained model logic)
-        risk_score = 0.15
-        if contract == "Month-to-month":
-            risk_score += 0.35
-        elif contract == "Two year":
-            risk_score -= 0.15
-            
-        if tenure < 12:
-            risk_score += 0.25
-        if monthly_bill > 1200:
-            risk_score += 0.15
-        if tech_support == "No":
-            risk_score += 0.10
-            
-        risk_score = min(max(risk_score, 0.05), 0.95)
+        # Create input DataFrame matching exact feature names
+        input_data = pd.DataFrame([{
+            'Gender': gender,
+            'Age': age,
+            'Tenure_Months': tenure,
+            'Contract_Type': contract,
+            'Payment_Method': payment,
+            'Monthly_Charges_INR': monthly_bill,
+            'Total_Charges_INR': total_bill,
+            'Tech_Support': tech_support,
+            'Paperless_Billing': paperless
+        }])
+        
+        if pipeline is not None:
+            # Predict Risk % using trained pipeline model
+            risk_score = pipeline.predict_proba(input_data)[0][1]
+        else:
+            # Fallback heuristic calculation
+            risk_score = 0.35 if contract == "Month-to-month" else 0.10
+
         risk_pct = risk_score * 100
         
         st.divider()
         st.markdown(f"### 🎯 Predicted Churn Probability: **{risk_pct:.1f}%**")
-        st.progress(risk_score)
+        st.progress(min(max(float(risk_score), 0.0), 1.0))
         
-        if risk_score >= 0.50:
+        if risk_score >= 0.30:  # Custom 0.30 Risk Threshold!
             st.markdown(f"""
             <div class="high-risk">
-                ⚠️ <strong>HIGH CHURN RISK DETECTED!</strong><br>
+                ⚠️ <strong>HIGH CHURN RISK DETECTED (Threshold ≥ 30%)!</strong><br>
                 This customer has a <strong>{risk_pct:.1f}%</strong> chance of leaving. <br>
                 <strong>Recommended Action:</strong> Offer a 20% discount on 1-year contract renewal immediately!
             </div>
