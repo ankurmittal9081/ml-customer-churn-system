@@ -11,12 +11,14 @@
 ## 📌 Executive Summary
 Customer Churn is one of the most critical challenges facing modern subscription-based businesses (Telecom, SaaS, Banking, E-Commerce). Acquiring a new customer can cost up to **5x to 25x more** than retaining an existing one. 
 
-This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting), **Feature Importance Analysis**, and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
+This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, scikit-learn production pipelines, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting), **Feature Importance Analysis**, and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
 
 ---
 
 ## 🎯 Key Highlights & Business Results
 
+- **Production Scikit-Learn Pipelines**: `ColumnTransformer` + `Pipeline` preventing data leakage during inference.
+- **Model Persistence**: Serialized production model saved to `models/churn_pipeline.pkl` using `joblib`.
 - **Data Imputation**: Outlier-robust median imputation for monetary features (`Total_Charges_INR`).
 - **Categorical Encoding**: Dummy variable trap prevention using One-Hot Encoding (`pd.get_dummies(drop_first=True)`).
 - **Feature Scaling**: Z-Score standardization via `StandardScaler` for distance/gradient models.
@@ -67,6 +69,8 @@ ml-customer-churn-system/
 │       ├── 1_target_distribution.png
 │       ├── 2_contract_vs_churn.png
 │       └── 3_correlation_heatmap.png
+├── models/                     # Saved Serialized Machine Learning Pipelines
+│   └── churn_pipeline.pkl
 ├── src/                        # Modular Source Code Scripts
 │   ├── create_dataset.py       # Dataset Generation Script
 │   └── eda_visualizations.py   # Automated Plot Generation Script
@@ -88,10 +92,10 @@ cd ml-customer-churn-system
 
 ### 2. Install Required Dependencies
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn streamlit
+pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
 ```
 
-### 3. Run Preprocessing & Multi-Model Training Pipeline
+### 3. Run Production Pipeline & Save Model
 ```bash
 python index.py
 ```
