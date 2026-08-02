@@ -1,6 +1,6 @@
 # ==============================================================================
 # END-TO-END MACHINE LEARNING PROJECT: CUSTOMER CHURN PREDICTION
-# Master Pipeline: Preprocessing -> Logistic Regression -> Decision Tree -> Random Forest -> Gradient Boosting
+# Master Pipeline: Preprocessing -> Multi-Model Evaluation -> Feature Importance
 # ==============================================================================
 
 import sys
@@ -74,4 +74,14 @@ gb_pred = gb_model.predict(X_test)
 print(f"Gradient Boosting Accuracy: {accuracy_score(y_test, gb_pred) * 100:.2f}%")
 print(f"Gradient Boosting Recall:   {recall_score(y_test, gb_pred) * 100:.2f}%\n")
 
-print("=== MULTI-MODEL PIPELINE EXECUTION COMPLETE ===")
+# 9. Feature Importance Analysis
+print("=== 6. FEATURE IMPORTANCE (TOP 5 CHURN DRIVERS) ===")
+feature_df = pd.DataFrame({
+    'Feature': X.columns,
+    'Importance_%': rf_model.feature_importances_ * 100
+}).sort_values(by='Importance_%', ascending=False)
+
+for idx, row in feature_df.head(5).iterrows():
+    print(f"  • {row['Feature']:<25}: {row['Importance_%']:.2f}% Impact")
+
+print("\n=== MULTI-MODEL PIPELINE EXECUTION COMPLETE ===")

@@ -11,7 +11,7 @@
 ## 📌 Executive Summary
 Customer Churn is one of the most critical challenges facing modern subscription-based businesses (Telecom, SaaS, Banking, E-Commerce). Acquiring a new customer can cost up to **5x to 25x more** than retaining an existing one. 
 
-This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting), and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
+This repository presents an **End-to-End Machine Learning Pipeline** designed to detect high-risk customer churn before it occurs. By performing automated preprocessing, feature engineering, probability calibration, multi-model evaluation (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting), **Feature Importance Analysis**, and **custom business decision thresholding (0.30)**, the system boosts **Recall from 63% to 83.56%**, helping business stakeholders intercept high-risk customers with proactive retention campaigns.
 
 ---
 
@@ -24,8 +24,13 @@ This repository presents an **End-to-End Machine Learning Pipeline** designed to
   - Baseline Logistic Regression (72.00% Accuracy)
   - Decision Tree Classifier (71.00% Accuracy)
   - Random Forest Classifier (100 Trees Ensemble - 72.50% Accuracy)
-  - **Gradient Boosting Classifier (100 Trees Sequential Error Correction - 70.00% Accuracy)**
-- **Probability Calibration**: `predict_proba` risk scoring for every test customer.
+  - Gradient Boosting Classifier (100 Trees Sequential Error Correction - 70.00% Accuracy)
+- **Top Business Churn Drivers (Feature Importance)**:
+  1. `Monthly_Charges_INR` (19.57% Impact - #1 Churn Driver)
+  2. `Total_Charges_INR` (16.55% Impact)
+  3. `Tenure_Months` (15.59% Impact)
+  4. `Age` (14.28% Impact)
+  5. `Contract_Type_Two year` (11.45% Impact)
 - **Custom Business Threshold Tuning**: Adjusted decision boundary from $0.50$ to $0.30$, boosting **Recall to 83.56%** (catching 83.5% of churners before they leave!).
 
 ---
